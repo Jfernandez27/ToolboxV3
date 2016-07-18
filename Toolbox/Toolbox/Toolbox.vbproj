@@ -105,6 +105,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classes\cls_security.vb" />
     <Compile Include="forms\frm_Home.vb">
       <SubType>Form</SubType>
     </Compile>
