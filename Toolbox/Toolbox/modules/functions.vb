@@ -23,19 +23,32 @@ Module functions
                         If vCar = 1 Then frm_Home.UsuariosToolStripMenuItem.Enabled = True
                     Case 4
                         If vCar = 1 Then frm_Home.DatosToolStripMenuItem.Enabled = True
-                    Case 5
-                    Case 6
-                    Case 7
-                    Case 8
-                    Case 9
+                    'Case 5
+                    '    If vCar = 1 Then frm_Home.Sistema5ToolStripMenuItem.Enabled = True
+                    'Case 6
+                    '    If vCar = 1 Then frm_Home.Sistema6ToolStripMenuItem.Enabled = True
+                    'Case 7
+                    '    If vCar = 1 Then frm_Home.Sistema7ToolStripMenuItem.Enabled = True
+                    'Case 8
+                    '    If vCar = 1 Then frm_Home.Sistema8ToolStripMenuItem.Enabled = True
+                    'Case 9
+                    '    If vCar = 1 Then frm_Home.Sistema9ToolStripMenuItem.Enabled = True
                     Case 10
                         If vCar = 1 Then
+                            'Sistema
                             frm_Home.ParámetrosToolStripMenuItem.Enabled = True
                             frm_Home.SeguridadToolStripMenuItem.Enabled = True
                             frm_Home.UsuariosToolStripMenuItem.Enabled = True
                             frm_Home.DatosToolStripMenuItem.Enabled = True
+                            'frm_Home.Sistema5ToolStripMenuItem.Enabled = True
+                            'frm_Home.Sistema6ToolStripMenuItem.Enabled = True
+                            'frm_Home.Sistema7ToolStripMenuItem.Enabled = True
+                            'frm_Home.Sistema8ToolStripMenuItem.Enabled = True
+                            'frm_Home.Sistema9ToolStripMenuItem.Enabled = True
 
+                            'Ventas
 
+                            'Botones
                             frm_Home.SistemaToolStripMenuItem.Enabled = True
                             frm_Home.InventarioToolStripMenuItem.Enabled = True
                             frm_Home.VentasToolStripMenuItem.Enabled = True
