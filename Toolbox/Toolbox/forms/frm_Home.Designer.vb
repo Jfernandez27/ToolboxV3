@@ -30,67 +30,47 @@ Partial Class frm_Home
         Me.VentasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EnviosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CobranzasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GerencialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnu_main = New System.Windows.Forms.MenuStrip()
         Me.SistemaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MódulosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.sst_main = New System.Windows.Forms.StatusStrip()
-        Me.tssl_PCName = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.tssl_time = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.tssl_UserName = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.tssl_espacer = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.tssl_spacer2 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.GerencialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.IniciarSesiónConUsuarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ParámetrosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SeguridadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UsuariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DatosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PerfilesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BancosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PaisesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EstadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CiudadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PerfilesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VentasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EnvíosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CobranzaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InventarioToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SistemaToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ListasDePreciosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EstadisticasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UsuariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Sistema5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Sistema6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Sistema7ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Sistema8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Sistema9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MódulosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VentasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EnvíosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CobranzaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InventarioToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SistemaToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListasDePreciosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstadisticasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.sst_main = New System.Windows.Forms.StatusStrip()
+        Me.tssl_espacer = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.tssl_UserName = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.tssl_PCName = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.tssl_time = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.tssl_spacer2 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.mnu_modules = New System.Windows.Forms.MenuStrip()
-        Me.UbicacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AuditoríaDeDatosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UbicacionesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BultosPorPedidosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PedidosPendientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PedidosProcesadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VentasToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PedidosWebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PedidosProcesadosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CobranzasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CobrosWebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MovimientosBancariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CobrosSinConciliarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EnvíosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SobresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RecolectasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EnvíosPendientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EnvíosPorActualizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InformaciónGerencialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ListasDePreciosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ListadoDeClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EstadisticasDeVentasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EstadisticasWebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ventas3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ventas4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ventas5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -98,17 +78,32 @@ Partial Class frm_Home
         Me.Ventas7ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ventas8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ventas9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UbicacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AuditoríaDeDatosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UbicacionesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BultosPorPedidosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PedidosPendientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PedidosProcesadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Envios6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Envios7ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Envios8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Envios9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CobranzasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CobrosWebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MovimientosBancariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CobrosSinConciliarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Cob4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Cob5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Cob6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Cob7ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Cob8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Cob9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EnvíosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SobresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RecolectasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ResumenDeRecolectasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EnvíosPorActualizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EnvíosPendientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Env6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Env7ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Env8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -123,6 +118,11 @@ Partial Class frm_Home
         Me.IG7ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.IG8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.IG9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InformaciónGerencialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListasDePreciosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListadoDeClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstadisticasDeVentasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstadisticasWebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.R5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.R6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.R7ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -189,6 +189,16 @@ Partial Class frm_Home
         Me.CobranzasToolStripMenuItem.Size = New System.Drawing.Size(84, 76)
         Me.CobranzasToolStripMenuItem.Text = "Cobranzas"
         '
+        'GerencialToolStripMenuItem
+        '
+        Me.GerencialToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.GerencialToolStripMenuItem.Enabled = False
+        Me.GerencialToolStripMenuItem.Image = CType(resources.GetObject("GerencialToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.GerencialToolStripMenuItem.Name = "GerencialToolStripMenuItem"
+        Me.GerencialToolStripMenuItem.Size = New System.Drawing.Size(84, 76)
+        Me.GerencialToolStripMenuItem.Text = "Gerencial"
+        Me.GerencialToolStripMenuItem.ToolTipText = "Información Gerencial"
+        '
         'mnu_main
         '
         Me.mnu_main.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -205,88 +215,6 @@ Partial Class frm_Home
         Me.SistemaToolStripMenuItem1.Name = "SistemaToolStripMenuItem1"
         Me.SistemaToolStripMenuItem1.Size = New System.Drawing.Size(67, 21)
         Me.SistemaToolStripMenuItem1.Text = "Sistema"
-        '
-        'MódulosToolStripMenuItem
-        '
-        Me.MódulosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VentasToolStripMenuItem1, Me.EnvíosToolStripMenuItem, Me.CobranzaToolStripMenuItem, Me.InventarioToolStripMenuItem1, Me.SistemaToolStripMenuItem2})
-        Me.MódulosToolStripMenuItem.Enabled = False
-        Me.MódulosToolStripMenuItem.Name = "MódulosToolStripMenuItem"
-        Me.MódulosToolStripMenuItem.Size = New System.Drawing.Size(73, 21)
-        Me.MódulosToolStripMenuItem.Text = "Módulos"
-        '
-        'ReportesToolStripMenuItem
-        '
-        Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ListasDePreciosToolStripMenuItem, Me.ClientesToolStripMenuItem, Me.EstadisticasToolStripMenuItem})
-        Me.ReportesToolStripMenuItem.Enabled = False
-        Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
-        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(74, 21)
-        Me.ReportesToolStripMenuItem.Text = "Reportes"
-        '
-        'SalirToolStripMenuItem
-        '
-        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(45, 21)
-        Me.SalirToolStripMenuItem.Text = "Salir"
-        '
-        'sst_main
-        '
-        Me.sst_main.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.sst_main.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tssl_espacer, Me.tssl_UserName, Me.tssl_PCName, Me.tssl_time, Me.tssl_spacer2})
-        Me.sst_main.Location = New System.Drawing.Point(0, 669)
-        Me.sst_main.Name = "sst_main"
-        Me.sst_main.Size = New System.Drawing.Size(1264, 22)
-        Me.sst_main.TabIndex = 3
-        '
-        'tssl_PCName
-        '
-        Me.tssl_PCName.BackColor = System.Drawing.Color.Transparent
-        Me.tssl_PCName.Margin = New System.Windows.Forms.Padding(15, 2, 15, 2)
-        Me.tssl_PCName.Name = "tssl_PCName"
-        Me.tssl_PCName.Size = New System.Drawing.Size(64, 18)
-        Me.tssl_PCName.Text = "PC Name"
-        '
-        'tssl_time
-        '
-        Me.tssl_time.BackColor = System.Drawing.Color.Transparent
-        Me.tssl_time.Margin = New System.Windows.Forms.Padding(10, 2, 10, 2)
-        Me.tssl_time.Name = "tssl_time"
-        Me.tssl_time.Size = New System.Drawing.Size(37, 18)
-        Me.tssl_time.Text = "Time"
-        '
-        'Timer1
-        '
-        '
-        'tssl_UserName
-        '
-        Me.tssl_UserName.BackColor = System.Drawing.Color.Transparent
-        Me.tssl_UserName.IsLink = True
-        Me.tssl_UserName.Margin = New System.Windows.Forms.Padding(15, 2, 15, 2)
-        Me.tssl_UserName.Name = "tssl_UserName"
-        Me.tssl_UserName.Size = New System.Drawing.Size(75, 18)
-        Me.tssl_UserName.Text = "User Name"
-        '
-        'tssl_espacer
-        '
-        Me.tssl_espacer.BackColor = System.Drawing.Color.Transparent
-        Me.tssl_espacer.Name = "tssl_espacer"
-        Me.tssl_espacer.Size = New System.Drawing.Size(993, 17)
-        Me.tssl_espacer.Spring = True
-        '
-        'tssl_spacer2
-        '
-        Me.tssl_spacer2.BackColor = System.Drawing.Color.Transparent
-        Me.tssl_spacer2.Name = "tssl_spacer2"
-        Me.tssl_spacer2.Size = New System.Drawing.Size(0, 17)
-        '
-        'GerencialToolStripMenuItem
-        '
-        Me.GerencialToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.GerencialToolStripMenuItem.Enabled = False
-        Me.GerencialToolStripMenuItem.Image = CType(resources.GetObject("GerencialToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.GerencialToolStripMenuItem.Name = "GerencialToolStripMenuItem"
-        Me.GerencialToolStripMenuItem.Size = New System.Drawing.Size(84, 76)
-        Me.GerencialToolStripMenuItem.Text = "Gerencial"
-        Me.GerencialToolStripMenuItem.ToolTipText = "Información Gerencial"
         '
         'IniciarSesiónConUsuarioToolStripMenuItem
         '
@@ -308,6 +236,13 @@ Partial Class frm_Home
         Me.SeguridadToolStripMenuItem.Size = New System.Drawing.Size(231, 22)
         Me.SeguridadToolStripMenuItem.Text = "Seguridad"
         '
+        'UsuariosToolStripMenuItem
+        '
+        Me.UsuariosToolStripMenuItem.Enabled = False
+        Me.UsuariosToolStripMenuItem.Name = "UsuariosToolStripMenuItem"
+        Me.UsuariosToolStripMenuItem.Size = New System.Drawing.Size(231, 22)
+        Me.UsuariosToolStripMenuItem.Text = "Usuarios"
+        '
         'DatosToolStripMenuItem
         '
         Me.DatosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PerfilesToolStripMenuItem1, Me.TransportesToolStripMenuItem, Me.BancosToolStripMenuItem, Me.PaisesToolStripMenuItem, Me.EstadosToolStripMenuItem, Me.CiudadesToolStripMenuItem})
@@ -316,99 +251,41 @@ Partial Class frm_Home
         Me.DatosToolStripMenuItem.Size = New System.Drawing.Size(231, 22)
         Me.DatosToolStripMenuItem.Text = "Datos"
         '
+        'PerfilesToolStripMenuItem1
+        '
+        Me.PerfilesToolStripMenuItem1.Name = "PerfilesToolStripMenuItem1"
+        Me.PerfilesToolStripMenuItem1.Size = New System.Drawing.Size(147, 22)
+        Me.PerfilesToolStripMenuItem1.Text = "Perfiles"
+        '
         'TransportesToolStripMenuItem
         '
         Me.TransportesToolStripMenuItem.Name = "TransportesToolStripMenuItem"
-        Me.TransportesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.TransportesToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.TransportesToolStripMenuItem.Text = "Transportes"
         '
         'BancosToolStripMenuItem
         '
         Me.BancosToolStripMenuItem.Name = "BancosToolStripMenuItem"
-        Me.BancosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.BancosToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.BancosToolStripMenuItem.Text = "Bancos"
         '
         'PaisesToolStripMenuItem
         '
         Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
-        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
         'EstadosToolStripMenuItem
         '
         Me.EstadosToolStripMenuItem.Name = "EstadosToolStripMenuItem"
-        Me.EstadosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EstadosToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.EstadosToolStripMenuItem.Text = "Estados"
         '
         'CiudadesToolStripMenuItem
         '
         Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
-        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
-        '
-        'PerfilesToolStripMenuItem1
-        '
-        Me.PerfilesToolStripMenuItem1.Name = "PerfilesToolStripMenuItem1"
-        Me.PerfilesToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.PerfilesToolStripMenuItem1.Text = "Perfiles"
-        '
-        'VentasToolStripMenuItem1
-        '
-        Me.VentasToolStripMenuItem1.Name = "VentasToolStripMenuItem1"
-        Me.VentasToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.VentasToolStripMenuItem1.Text = "Ventas"
-        '
-        'EnvíosToolStripMenuItem
-        '
-        Me.EnvíosToolStripMenuItem.Name = "EnvíosToolStripMenuItem"
-        Me.EnvíosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.EnvíosToolStripMenuItem.Text = "Envíos"
-        '
-        'CobranzaToolStripMenuItem
-        '
-        Me.CobranzaToolStripMenuItem.Name = "CobranzaToolStripMenuItem"
-        Me.CobranzaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.CobranzaToolStripMenuItem.Text = "Cobranzas"
-        '
-        'InventarioToolStripMenuItem1
-        '
-        Me.InventarioToolStripMenuItem1.Name = "InventarioToolStripMenuItem1"
-        Me.InventarioToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.InventarioToolStripMenuItem1.Text = "Inventario"
-        '
-        'SistemaToolStripMenuItem2
-        '
-        Me.SistemaToolStripMenuItem2.Name = "SistemaToolStripMenuItem2"
-        Me.SistemaToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
-        Me.SistemaToolStripMenuItem2.Text = "Sistema"
-        '
-        'ListasDePreciosToolStripMenuItem
-        '
-        Me.ListasDePreciosToolStripMenuItem.Enabled = False
-        Me.ListasDePreciosToolStripMenuItem.Name = "ListasDePreciosToolStripMenuItem"
-        Me.ListasDePreciosToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.ListasDePreciosToolStripMenuItem.Text = "Listas de Precios"
-        '
-        'ClientesToolStripMenuItem
-        '
-        Me.ClientesToolStripMenuItem.Enabled = False
-        Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
-        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.ClientesToolStripMenuItem.Text = "Clientes"
-        '
-        'EstadisticasToolStripMenuItem
-        '
-        Me.EstadisticasToolStripMenuItem.Enabled = False
-        Me.EstadisticasToolStripMenuItem.Name = "EstadisticasToolStripMenuItem"
-        Me.EstadisticasToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.EstadisticasToolStripMenuItem.Text = "Estadisticas"
-        '
-        'UsuariosToolStripMenuItem
-        '
-        Me.UsuariosToolStripMenuItem.Enabled = False
-        Me.UsuariosToolStripMenuItem.Name = "UsuariosToolStripMenuItem"
-        Me.UsuariosToolStripMenuItem.Size = New System.Drawing.Size(231, 22)
-        Me.UsuariosToolStripMenuItem.Text = "Usuarios"
         '
         'Sistema5ToolStripMenuItem
         '
@@ -450,6 +327,129 @@ Partial Class frm_Home
         Me.Sistema9ToolStripMenuItem.Text = "Sistema9"
         Me.Sistema9ToolStripMenuItem.Visible = False
         '
+        'MódulosToolStripMenuItem
+        '
+        Me.MódulosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VentasToolStripMenuItem1, Me.EnvíosToolStripMenuItem, Me.CobranzaToolStripMenuItem, Me.InventarioToolStripMenuItem1, Me.SistemaToolStripMenuItem2})
+        Me.MódulosToolStripMenuItem.Enabled = False
+        Me.MódulosToolStripMenuItem.Name = "MódulosToolStripMenuItem"
+        Me.MódulosToolStripMenuItem.Size = New System.Drawing.Size(73, 21)
+        Me.MódulosToolStripMenuItem.Text = "Módulos"
+        '
+        'VentasToolStripMenuItem1
+        '
+        Me.VentasToolStripMenuItem1.Name = "VentasToolStripMenuItem1"
+        Me.VentasToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.VentasToolStripMenuItem1.Text = "Ventas"
+        '
+        'EnvíosToolStripMenuItem
+        '
+        Me.EnvíosToolStripMenuItem.Name = "EnvíosToolStripMenuItem"
+        Me.EnvíosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EnvíosToolStripMenuItem.Text = "Envíos"
+        '
+        'CobranzaToolStripMenuItem
+        '
+        Me.CobranzaToolStripMenuItem.Name = "CobranzaToolStripMenuItem"
+        Me.CobranzaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CobranzaToolStripMenuItem.Text = "Cobranzas"
+        '
+        'InventarioToolStripMenuItem1
+        '
+        Me.InventarioToolStripMenuItem1.Name = "InventarioToolStripMenuItem1"
+        Me.InventarioToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.InventarioToolStripMenuItem1.Text = "Inventario"
+        '
+        'SistemaToolStripMenuItem2
+        '
+        Me.SistemaToolStripMenuItem2.Name = "SistemaToolStripMenuItem2"
+        Me.SistemaToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
+        Me.SistemaToolStripMenuItem2.Text = "Sistema"
+        '
+        'ReportesToolStripMenuItem
+        '
+        Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ListasDePreciosToolStripMenuItem, Me.ClientesToolStripMenuItem, Me.EstadisticasToolStripMenuItem})
+        Me.ReportesToolStripMenuItem.Enabled = False
+        Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
+        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(74, 21)
+        Me.ReportesToolStripMenuItem.Text = "Reportes"
+        '
+        'ListasDePreciosToolStripMenuItem
+        '
+        Me.ListasDePreciosToolStripMenuItem.Enabled = False
+        Me.ListasDePreciosToolStripMenuItem.Name = "ListasDePreciosToolStripMenuItem"
+        Me.ListasDePreciosToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.ListasDePreciosToolStripMenuItem.Text = "Listas de Precios"
+        '
+        'ClientesToolStripMenuItem
+        '
+        Me.ClientesToolStripMenuItem.Enabled = False
+        Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
+        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.ClientesToolStripMenuItem.Text = "Clientes"
+        '
+        'EstadisticasToolStripMenuItem
+        '
+        Me.EstadisticasToolStripMenuItem.Enabled = False
+        Me.EstadisticasToolStripMenuItem.Name = "EstadisticasToolStripMenuItem"
+        Me.EstadisticasToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.EstadisticasToolStripMenuItem.Text = "Estadisticas"
+        '
+        'SalirToolStripMenuItem
+        '
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(45, 21)
+        Me.SalirToolStripMenuItem.Text = "Salir"
+        '
+        'sst_main
+        '
+        Me.sst_main.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.sst_main.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tssl_espacer, Me.tssl_UserName, Me.tssl_PCName, Me.tssl_time, Me.tssl_spacer2})
+        Me.sst_main.Location = New System.Drawing.Point(0, 669)
+        Me.sst_main.Name = "sst_main"
+        Me.sst_main.Size = New System.Drawing.Size(1264, 22)
+        Me.sst_main.TabIndex = 3
+        '
+        'tssl_espacer
+        '
+        Me.tssl_espacer.BackColor = System.Drawing.Color.Transparent
+        Me.tssl_espacer.Name = "tssl_espacer"
+        Me.tssl_espacer.Size = New System.Drawing.Size(993, 17)
+        Me.tssl_espacer.Spring = True
+        '
+        'tssl_UserName
+        '
+        Me.tssl_UserName.BackColor = System.Drawing.Color.Transparent
+        Me.tssl_UserName.IsLink = True
+        Me.tssl_UserName.Margin = New System.Windows.Forms.Padding(15, 2, 15, 2)
+        Me.tssl_UserName.Name = "tssl_UserName"
+        Me.tssl_UserName.Size = New System.Drawing.Size(75, 18)
+        Me.tssl_UserName.Text = "User Name"
+        '
+        'tssl_PCName
+        '
+        Me.tssl_PCName.BackColor = System.Drawing.Color.Transparent
+        Me.tssl_PCName.Margin = New System.Windows.Forms.Padding(15, 2, 15, 2)
+        Me.tssl_PCName.Name = "tssl_PCName"
+        Me.tssl_PCName.Size = New System.Drawing.Size(64, 18)
+        Me.tssl_PCName.Text = "PC Name"
+        '
+        'tssl_time
+        '
+        Me.tssl_time.BackColor = System.Drawing.Color.Transparent
+        Me.tssl_time.Margin = New System.Windows.Forms.Padding(10, 2, 10, 2)
+        Me.tssl_time.Name = "tssl_time"
+        Me.tssl_time.Size = New System.Drawing.Size(37, 18)
+        Me.tssl_time.Text = "Time"
+        '
+        'tssl_spacer2
+        '
+        Me.tssl_spacer2.BackColor = System.Drawing.Color.Transparent
+        Me.tssl_spacer2.Name = "tssl_spacer2"
+        Me.tssl_spacer2.Size = New System.Drawing.Size(0, 17)
+        '
+        'Timer1
+        '
+        '
         'mnu_modules
         '
         Me.mnu_modules.Enabled = False
@@ -458,49 +458,6 @@ Partial Class frm_Home
         Me.mnu_modules.Name = "mnu_modules"
         Me.mnu_modules.Size = New System.Drawing.Size(1264, 24)
         Me.mnu_modules.TabIndex = 5
-        Me.mnu_modules.Visible = False
-        '
-        'UbicacionesToolStripMenuItem
-        '
-        Me.UbicacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AuditoríaDeDatosToolStripMenuItem, Me.UbicacionesToolStripMenuItem1, Me.BultosPorPedidosToolStripMenuItem, Me.PedidosPendientesToolStripMenuItem, Me.PedidosProcesadosToolStripMenuItem, Me.Envios6ToolStripMenuItem, Me.Envios7ToolStripMenuItem, Me.Envios8ToolStripMenuItem, Me.Envios9ToolStripMenuItem})
-        Me.UbicacionesToolStripMenuItem.Name = "UbicacionesToolStripMenuItem"
-        Me.UbicacionesToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
-        Me.UbicacionesToolStripMenuItem.Text = "Inventario"
-        '
-        'AuditoríaDeDatosToolStripMenuItem
-        '
-        Me.AuditoríaDeDatosToolStripMenuItem.Enabled = False
-        Me.AuditoríaDeDatosToolStripMenuItem.Name = "AuditoríaDeDatosToolStripMenuItem"
-        Me.AuditoríaDeDatosToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
-        Me.AuditoríaDeDatosToolStripMenuItem.Text = "Auditoría de Datos"
-        '
-        'UbicacionesToolStripMenuItem1
-        '
-        Me.UbicacionesToolStripMenuItem1.Enabled = False
-        Me.UbicacionesToolStripMenuItem1.Name = "UbicacionesToolStripMenuItem1"
-        Me.UbicacionesToolStripMenuItem1.Size = New System.Drawing.Size(179, 22)
-        Me.UbicacionesToolStripMenuItem1.Text = "Ubicaciones"
-        '
-        'BultosPorPedidosToolStripMenuItem
-        '
-        Me.BultosPorPedidosToolStripMenuItem.Enabled = False
-        Me.BultosPorPedidosToolStripMenuItem.Name = "BultosPorPedidosToolStripMenuItem"
-        Me.BultosPorPedidosToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
-        Me.BultosPorPedidosToolStripMenuItem.Text = "Bultos por pedidos"
-        '
-        'PedidosPendientesToolStripMenuItem
-        '
-        Me.PedidosPendientesToolStripMenuItem.Enabled = False
-        Me.PedidosPendientesToolStripMenuItem.Name = "PedidosPendientesToolStripMenuItem"
-        Me.PedidosPendientesToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
-        Me.PedidosPendientesToolStripMenuItem.Text = "Pedidos Pendientes"
-        '
-        'PedidosProcesadosToolStripMenuItem
-        '
-        Me.PedidosProcesadosToolStripMenuItem.Enabled = False
-        Me.PedidosProcesadosToolStripMenuItem.Name = "PedidosProcesadosToolStripMenuItem"
-        Me.PedidosProcesadosToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
-        Me.PedidosProcesadosToolStripMenuItem.Text = "Pedidos Procesados"
         '
         'VentasToolStripMenuItem2
         '
@@ -522,104 +479,6 @@ Partial Class frm_Home
         Me.PedidosProcesadosToolStripMenuItem1.Name = "PedidosProcesadosToolStripMenuItem1"
         Me.PedidosProcesadosToolStripMenuItem1.Size = New System.Drawing.Size(179, 22)
         Me.PedidosProcesadosToolStripMenuItem1.Text = "Pedidos Procesados"
-        '
-        'CobranzasToolStripMenuItem1
-        '
-        Me.CobranzasToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CobrosWebToolStripMenuItem, Me.MovimientosBancariosToolStripMenuItem, Me.CobrosSinConciliarToolStripMenuItem, Me.Cob4ToolStripMenuItem, Me.Cob5ToolStripMenuItem, Me.Cob6ToolStripMenuItem, Me.Cob7ToolStripMenuItem, Me.Cob8ToolStripMenuItem, Me.Cob9ToolStripMenuItem})
-        Me.CobranzasToolStripMenuItem1.Name = "CobranzasToolStripMenuItem1"
-        Me.CobranzasToolStripMenuItem1.Size = New System.Drawing.Size(74, 20)
-        Me.CobranzasToolStripMenuItem1.Text = "Cobranzas"
-        '
-        'CobrosWebToolStripMenuItem
-        '
-        Me.CobrosWebToolStripMenuItem.Enabled = False
-        Me.CobrosWebToolStripMenuItem.Name = "CobrosWebToolStripMenuItem"
-        Me.CobrosWebToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.CobrosWebToolStripMenuItem.Text = "Cobros Web"
-        '
-        'MovimientosBancariosToolStripMenuItem
-        '
-        Me.MovimientosBancariosToolStripMenuItem.Enabled = False
-        Me.MovimientosBancariosToolStripMenuItem.Name = "MovimientosBancariosToolStripMenuItem"
-        Me.MovimientosBancariosToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.MovimientosBancariosToolStripMenuItem.Text = "Movimientos Bancarios"
-        '
-        'CobrosSinConciliarToolStripMenuItem
-        '
-        Me.CobrosSinConciliarToolStripMenuItem.Enabled = False
-        Me.CobrosSinConciliarToolStripMenuItem.Name = "CobrosSinConciliarToolStripMenuItem"
-        Me.CobrosSinConciliarToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.CobrosSinConciliarToolStripMenuItem.Text = "Cobros sin Conciliar"
-        '
-        'EnvíosToolStripMenuItem1
-        '
-        Me.EnvíosToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SobresToolStripMenuItem, Me.RecolectasToolStripMenuItem, Me.ResumenDeRecolectasToolStripMenuItem, Me.EnvíosPorActualizarToolStripMenuItem, Me.EnvíosPendientesToolStripMenuItem, Me.Env6ToolStripMenuItem, Me.Env7ToolStripMenuItem, Me.Env8ToolStripMenuItem, Me.Env9ToolStripMenuItem})
-        Me.EnvíosToolStripMenuItem1.Name = "EnvíosToolStripMenuItem1"
-        Me.EnvíosToolStripMenuItem1.Size = New System.Drawing.Size(53, 20)
-        Me.EnvíosToolStripMenuItem1.Text = "Envíos"
-        '
-        'SobresToolStripMenuItem
-        '
-        Me.SobresToolStripMenuItem.Enabled = False
-        Me.SobresToolStripMenuItem.Name = "SobresToolStripMenuItem"
-        Me.SobresToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.SobresToolStripMenuItem.Text = "Sobres"
-        '
-        'RecolectasToolStripMenuItem
-        '
-        Me.RecolectasToolStripMenuItem.Enabled = False
-        Me.RecolectasToolStripMenuItem.Name = "RecolectasToolStripMenuItem"
-        Me.RecolectasToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.RecolectasToolStripMenuItem.Text = "Recolectas"
-        '
-        'EnvíosPendientesToolStripMenuItem
-        '
-        Me.EnvíosPendientesToolStripMenuItem.Enabled = False
-        Me.EnvíosPendientesToolStripMenuItem.Name = "EnvíosPendientesToolStripMenuItem"
-        Me.EnvíosPendientesToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.EnvíosPendientesToolStripMenuItem.Text = "Envíos Procesados"
-        '
-        'EnvíosPorActualizarToolStripMenuItem
-        '
-        Me.EnvíosPorActualizarToolStripMenuItem.Enabled = False
-        Me.EnvíosPorActualizarToolStripMenuItem.Name = "EnvíosPorActualizarToolStripMenuItem"
-        Me.EnvíosPorActualizarToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
-        Me.EnvíosPorActualizarToolStripMenuItem.Text = "Envíos por Actualizar"
-        '
-        'InformaciónGerencialToolStripMenuItem
-        '
-        Me.InformaciónGerencialToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ListasDePreciosToolStripMenuItem1, Me.ListadoDeClientesToolStripMenuItem, Me.EstadisticasDeVentasToolStripMenuItem, Me.EstadisticasWebToolStripMenuItem, Me.R5ToolStripMenuItem, Me.R6ToolStripMenuItem, Me.R7ToolStripMenuItem, Me.R8ToolStripMenuItem, Me.R9ToolStripMenuItem})
-        Me.InformaciónGerencialToolStripMenuItem.Name = "InformaciónGerencialToolStripMenuItem"
-        Me.InformaciónGerencialToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
-        Me.InformaciónGerencialToolStripMenuItem.Text = "Reportes"
-        '
-        'ListasDePreciosToolStripMenuItem1
-        '
-        Me.ListasDePreciosToolStripMenuItem1.Enabled = False
-        Me.ListasDePreciosToolStripMenuItem1.Name = "ListasDePreciosToolStripMenuItem1"
-        Me.ListasDePreciosToolStripMenuItem1.Size = New System.Drawing.Size(187, 22)
-        Me.ListasDePreciosToolStripMenuItem1.Text = "Listas de Precios"
-        '
-        'ListadoDeClientesToolStripMenuItem
-        '
-        Me.ListadoDeClientesToolStripMenuItem.Enabled = False
-        Me.ListadoDeClientesToolStripMenuItem.Name = "ListadoDeClientesToolStripMenuItem"
-        Me.ListadoDeClientesToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
-        Me.ListadoDeClientesToolStripMenuItem.Text = "Listado de Clientes"
-        '
-        'EstadisticasDeVentasToolStripMenuItem
-        '
-        Me.EstadisticasDeVentasToolStripMenuItem.Enabled = False
-        Me.EstadisticasDeVentasToolStripMenuItem.Name = "EstadisticasDeVentasToolStripMenuItem"
-        Me.EstadisticasDeVentasToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
-        Me.EstadisticasDeVentasToolStripMenuItem.Text = "Estadisticas de Ventas"
-        '
-        'EstadisticasWebToolStripMenuItem
-        '
-        Me.EstadisticasWebToolStripMenuItem.Enabled = False
-        Me.EstadisticasWebToolStripMenuItem.Name = "EstadisticasWebToolStripMenuItem"
-        Me.EstadisticasWebToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
-        Me.EstadisticasWebToolStripMenuItem.Text = "Estadisticas Web"
         '
         'Ventas3ToolStripMenuItem
         '
@@ -677,6 +536,48 @@ Partial Class frm_Home
         Me.Ventas9ToolStripMenuItem.Text = "Ventas9"
         Me.Ventas9ToolStripMenuItem.Visible = False
         '
+        'UbicacionesToolStripMenuItem
+        '
+        Me.UbicacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AuditoríaDeDatosToolStripMenuItem, Me.UbicacionesToolStripMenuItem1, Me.BultosPorPedidosToolStripMenuItem, Me.PedidosPendientesToolStripMenuItem, Me.PedidosProcesadosToolStripMenuItem, Me.Envios6ToolStripMenuItem, Me.Envios7ToolStripMenuItem, Me.Envios8ToolStripMenuItem, Me.Envios9ToolStripMenuItem})
+        Me.UbicacionesToolStripMenuItem.Name = "UbicacionesToolStripMenuItem"
+        Me.UbicacionesToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
+        Me.UbicacionesToolStripMenuItem.Text = "Inventario"
+        '
+        'AuditoríaDeDatosToolStripMenuItem
+        '
+        Me.AuditoríaDeDatosToolStripMenuItem.Enabled = False
+        Me.AuditoríaDeDatosToolStripMenuItem.Name = "AuditoríaDeDatosToolStripMenuItem"
+        Me.AuditoríaDeDatosToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.AuditoríaDeDatosToolStripMenuItem.Text = "Auditoría de Datos"
+        '
+        'UbicacionesToolStripMenuItem1
+        '
+        Me.UbicacionesToolStripMenuItem1.Enabled = False
+        Me.UbicacionesToolStripMenuItem1.Name = "UbicacionesToolStripMenuItem1"
+        Me.UbicacionesToolStripMenuItem1.Size = New System.Drawing.Size(179, 22)
+        Me.UbicacionesToolStripMenuItem1.Text = "Ubicaciones"
+        '
+        'BultosPorPedidosToolStripMenuItem
+        '
+        Me.BultosPorPedidosToolStripMenuItem.Enabled = False
+        Me.BultosPorPedidosToolStripMenuItem.Name = "BultosPorPedidosToolStripMenuItem"
+        Me.BultosPorPedidosToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.BultosPorPedidosToolStripMenuItem.Text = "Bultos por pedidos"
+        '
+        'PedidosPendientesToolStripMenuItem
+        '
+        Me.PedidosPendientesToolStripMenuItem.Enabled = False
+        Me.PedidosPendientesToolStripMenuItem.Name = "PedidosPendientesToolStripMenuItem"
+        Me.PedidosPendientesToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.PedidosPendientesToolStripMenuItem.Text = "Pedidos Pendientes"
+        '
+        'PedidosProcesadosToolStripMenuItem
+        '
+        Me.PedidosProcesadosToolStripMenuItem.Enabled = False
+        Me.PedidosProcesadosToolStripMenuItem.Name = "PedidosProcesadosToolStripMenuItem"
+        Me.PedidosProcesadosToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.PedidosProcesadosToolStripMenuItem.Text = "Pedidos Procesados"
+        '
         'Envios6ToolStripMenuItem
         '
         Me.Envios6ToolStripMenuItem.Enabled = False
@@ -708,6 +609,34 @@ Partial Class frm_Home
         Me.Envios9ToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.Envios9ToolStripMenuItem.Text = "Inv9"
         Me.Envios9ToolStripMenuItem.Visible = False
+        '
+        'CobranzasToolStripMenuItem1
+        '
+        Me.CobranzasToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CobrosWebToolStripMenuItem, Me.MovimientosBancariosToolStripMenuItem, Me.CobrosSinConciliarToolStripMenuItem, Me.Cob4ToolStripMenuItem, Me.Cob5ToolStripMenuItem, Me.Cob6ToolStripMenuItem, Me.Cob7ToolStripMenuItem, Me.Cob8ToolStripMenuItem, Me.Cob9ToolStripMenuItem})
+        Me.CobranzasToolStripMenuItem1.Name = "CobranzasToolStripMenuItem1"
+        Me.CobranzasToolStripMenuItem1.Size = New System.Drawing.Size(74, 20)
+        Me.CobranzasToolStripMenuItem1.Text = "Cobranzas"
+        '
+        'CobrosWebToolStripMenuItem
+        '
+        Me.CobrosWebToolStripMenuItem.Enabled = False
+        Me.CobrosWebToolStripMenuItem.Name = "CobrosWebToolStripMenuItem"
+        Me.CobrosWebToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.CobrosWebToolStripMenuItem.Text = "Cobros Web"
+        '
+        'MovimientosBancariosToolStripMenuItem
+        '
+        Me.MovimientosBancariosToolStripMenuItem.Enabled = False
+        Me.MovimientosBancariosToolStripMenuItem.Name = "MovimientosBancariosToolStripMenuItem"
+        Me.MovimientosBancariosToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.MovimientosBancariosToolStripMenuItem.Text = "Movimientos Bancarios"
+        '
+        'CobrosSinConciliarToolStripMenuItem
+        '
+        Me.CobrosSinConciliarToolStripMenuItem.Enabled = False
+        Me.CobrosSinConciliarToolStripMenuItem.Name = "CobrosSinConciliarToolStripMenuItem"
+        Me.CobrosSinConciliarToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.CobrosSinConciliarToolStripMenuItem.Text = "Cobros sin Conciliar"
         '
         'Cob4ToolStripMenuItem
         '
@@ -757,12 +686,47 @@ Partial Class frm_Home
         Me.Cob9ToolStripMenuItem.Text = "Cob9"
         Me.Cob9ToolStripMenuItem.Visible = False
         '
+        'EnvíosToolStripMenuItem1
+        '
+        Me.EnvíosToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SobresToolStripMenuItem, Me.RecolectasToolStripMenuItem, Me.ResumenDeRecolectasToolStripMenuItem, Me.EnvíosPorActualizarToolStripMenuItem, Me.EnvíosPendientesToolStripMenuItem, Me.Env6ToolStripMenuItem, Me.Env7ToolStripMenuItem, Me.Env8ToolStripMenuItem, Me.Env9ToolStripMenuItem})
+        Me.EnvíosToolStripMenuItem1.Name = "EnvíosToolStripMenuItem1"
+        Me.EnvíosToolStripMenuItem1.Size = New System.Drawing.Size(53, 20)
+        Me.EnvíosToolStripMenuItem1.Text = "Envíos"
+        '
+        'SobresToolStripMenuItem
+        '
+        Me.SobresToolStripMenuItem.Enabled = False
+        Me.SobresToolStripMenuItem.Name = "SobresToolStripMenuItem"
+        Me.SobresToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.SobresToolStripMenuItem.Text = "Sobres"
+        '
+        'RecolectasToolStripMenuItem
+        '
+        Me.RecolectasToolStripMenuItem.Enabled = False
+        Me.RecolectasToolStripMenuItem.Name = "RecolectasToolStripMenuItem"
+        Me.RecolectasToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.RecolectasToolStripMenuItem.Text = "Recolectas"
+        '
         'ResumenDeRecolectasToolStripMenuItem
         '
         Me.ResumenDeRecolectasToolStripMenuItem.Enabled = False
         Me.ResumenDeRecolectasToolStripMenuItem.Name = "ResumenDeRecolectasToolStripMenuItem"
         Me.ResumenDeRecolectasToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
         Me.ResumenDeRecolectasToolStripMenuItem.Text = "Resumen de Recolectas"
+        '
+        'EnvíosPorActualizarToolStripMenuItem
+        '
+        Me.EnvíosPorActualizarToolStripMenuItem.Enabled = False
+        Me.EnvíosPorActualizarToolStripMenuItem.Name = "EnvíosPorActualizarToolStripMenuItem"
+        Me.EnvíosPorActualizarToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.EnvíosPorActualizarToolStripMenuItem.Text = "Envíos por Actualizar"
+        '
+        'EnvíosPendientesToolStripMenuItem
+        '
+        Me.EnvíosPendientesToolStripMenuItem.Enabled = False
+        Me.EnvíosPendientesToolStripMenuItem.Name = "EnvíosPendientesToolStripMenuItem"
+        Me.EnvíosPendientesToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
+        Me.EnvíosPendientesToolStripMenuItem.Text = "Envíos Procesados"
         '
         'Env6ToolStripMenuItem
         '
@@ -807,7 +771,7 @@ Partial Class frm_Home
         '
         Me.IG1ToolStripMenuItem.Enabled = False
         Me.IG1ToolStripMenuItem.Name = "IG1ToolStripMenuItem"
-        Me.IG1ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IG1ToolStripMenuItem.Size = New System.Drawing.Size(91, 22)
         Me.IG1ToolStripMenuItem.Text = "IG1"
         Me.IG1ToolStripMenuItem.Visible = False
         '
@@ -815,7 +779,7 @@ Partial Class frm_Home
         '
         Me.IG2ToolStripMenuItem.Enabled = False
         Me.IG2ToolStripMenuItem.Name = "IG2ToolStripMenuItem"
-        Me.IG2ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IG2ToolStripMenuItem.Size = New System.Drawing.Size(91, 22)
         Me.IG2ToolStripMenuItem.Text = "IG2"
         Me.IG2ToolStripMenuItem.Visible = False
         '
@@ -823,7 +787,7 @@ Partial Class frm_Home
         '
         Me.IG3ToolStripMenuItem.Enabled = False
         Me.IG3ToolStripMenuItem.Name = "IG3ToolStripMenuItem"
-        Me.IG3ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IG3ToolStripMenuItem.Size = New System.Drawing.Size(91, 22)
         Me.IG3ToolStripMenuItem.Text = "IG3"
         Me.IG3ToolStripMenuItem.Visible = False
         '
@@ -831,7 +795,7 @@ Partial Class frm_Home
         '
         Me.IG4ToolStripMenuItem.Enabled = False
         Me.IG4ToolStripMenuItem.Name = "IG4ToolStripMenuItem"
-        Me.IG4ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IG4ToolStripMenuItem.Size = New System.Drawing.Size(91, 22)
         Me.IG4ToolStripMenuItem.Text = "IG4"
         Me.IG4ToolStripMenuItem.Visible = False
         '
@@ -839,7 +803,7 @@ Partial Class frm_Home
         '
         Me.IG5ToolStripMenuItem.Enabled = False
         Me.IG5ToolStripMenuItem.Name = "IG5ToolStripMenuItem"
-        Me.IG5ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IG5ToolStripMenuItem.Size = New System.Drawing.Size(91, 22)
         Me.IG5ToolStripMenuItem.Text = "IG5"
         Me.IG5ToolStripMenuItem.Visible = False
         '
@@ -847,7 +811,7 @@ Partial Class frm_Home
         '
         Me.IG6ToolStripMenuItem.Enabled = False
         Me.IG6ToolStripMenuItem.Name = "IG6ToolStripMenuItem"
-        Me.IG6ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IG6ToolStripMenuItem.Size = New System.Drawing.Size(91, 22)
         Me.IG6ToolStripMenuItem.Text = "IG6"
         Me.IG6ToolStripMenuItem.Visible = False
         '
@@ -855,7 +819,7 @@ Partial Class frm_Home
         '
         Me.IG7ToolStripMenuItem.Enabled = False
         Me.IG7ToolStripMenuItem.Name = "IG7ToolStripMenuItem"
-        Me.IG7ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IG7ToolStripMenuItem.Size = New System.Drawing.Size(91, 22)
         Me.IG7ToolStripMenuItem.Text = "IG7"
         Me.IG7ToolStripMenuItem.Visible = False
         '
@@ -863,7 +827,7 @@ Partial Class frm_Home
         '
         Me.IG8ToolStripMenuItem.Enabled = False
         Me.IG8ToolStripMenuItem.Name = "IG8ToolStripMenuItem"
-        Me.IG8ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IG8ToolStripMenuItem.Size = New System.Drawing.Size(91, 22)
         Me.IG8ToolStripMenuItem.Text = "IG8"
         Me.IG8ToolStripMenuItem.Visible = False
         '
@@ -871,9 +835,44 @@ Partial Class frm_Home
         '
         Me.IG9ToolStripMenuItem.Enabled = False
         Me.IG9ToolStripMenuItem.Name = "IG9ToolStripMenuItem"
-        Me.IG9ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IG9ToolStripMenuItem.Size = New System.Drawing.Size(91, 22)
         Me.IG9ToolStripMenuItem.Text = "IG9"
         Me.IG9ToolStripMenuItem.Visible = False
+        '
+        'InformaciónGerencialToolStripMenuItem
+        '
+        Me.InformaciónGerencialToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ListasDePreciosToolStripMenuItem1, Me.ListadoDeClientesToolStripMenuItem, Me.EstadisticasDeVentasToolStripMenuItem, Me.EstadisticasWebToolStripMenuItem, Me.R5ToolStripMenuItem, Me.R6ToolStripMenuItem, Me.R7ToolStripMenuItem, Me.R8ToolStripMenuItem, Me.R9ToolStripMenuItem})
+        Me.InformaciónGerencialToolStripMenuItem.Name = "InformaciónGerencialToolStripMenuItem"
+        Me.InformaciónGerencialToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
+        Me.InformaciónGerencialToolStripMenuItem.Text = "Reportes"
+        '
+        'ListasDePreciosToolStripMenuItem1
+        '
+        Me.ListasDePreciosToolStripMenuItem1.Enabled = False
+        Me.ListasDePreciosToolStripMenuItem1.Name = "ListasDePreciosToolStripMenuItem1"
+        Me.ListasDePreciosToolStripMenuItem1.Size = New System.Drawing.Size(187, 22)
+        Me.ListasDePreciosToolStripMenuItem1.Text = "Listas de Precios"
+        '
+        'ListadoDeClientesToolStripMenuItem
+        '
+        Me.ListadoDeClientesToolStripMenuItem.Enabled = False
+        Me.ListadoDeClientesToolStripMenuItem.Name = "ListadoDeClientesToolStripMenuItem"
+        Me.ListadoDeClientesToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
+        Me.ListadoDeClientesToolStripMenuItem.Text = "Listado de Clientes"
+        '
+        'EstadisticasDeVentasToolStripMenuItem
+        '
+        Me.EstadisticasDeVentasToolStripMenuItem.Enabled = False
+        Me.EstadisticasDeVentasToolStripMenuItem.Name = "EstadisticasDeVentasToolStripMenuItem"
+        Me.EstadisticasDeVentasToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
+        Me.EstadisticasDeVentasToolStripMenuItem.Text = "Estadisticas de Ventas"
+        '
+        'EstadisticasWebToolStripMenuItem
+        '
+        Me.EstadisticasWebToolStripMenuItem.Enabled = False
+        Me.EstadisticasWebToolStripMenuItem.Name = "EstadisticasWebToolStripMenuItem"
+        Me.EstadisticasWebToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
+        Me.EstadisticasWebToolStripMenuItem.Text = "Estadisticas Web"
         '
         'R5ToolStripMenuItem
         '

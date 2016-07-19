@@ -23,16 +23,16 @@ Module functions
                         If vCar = 1 Then frm_Home.UsuariosToolStripMenuItem.Enabled = True
                     Case 4
                         If vCar = 1 Then frm_Home.DatosToolStripMenuItem.Enabled = True
-                    'Case 5
-                    '    If vCar = 1 Then frm_Home.Sistema5ToolStripMenuItem.Enabled = True
-                    'Case 6
-                    '    If vCar = 1 Then frm_Home.Sistema6ToolStripMenuItem.Enabled = True
-                    'Case 7
-                    '    If vCar = 1 Then frm_Home.Sistema7ToolStripMenuItem.Enabled = True
-                    'Case 8
-                    '    If vCar = 1 Then frm_Home.Sistema8ToolStripMenuItem.Enabled = True
-                    'Case 9
-                    '    If vCar = 1 Then frm_Home.Sistema9ToolStripMenuItem.Enabled = True
+                    Case 5
+                        If vCar = 1 Then frm_Home.Sistema5ToolStripMenuItem.Enabled = True
+                    Case 6
+                        If vCar = 1 Then frm_Home.Sistema6ToolStripMenuItem.Enabled = True
+                    Case 7
+                        If vCar = 1 Then frm_Home.Sistema7ToolStripMenuItem.Enabled = True
+                    Case 8
+                        If vCar = 1 Then frm_Home.Sistema8ToolStripMenuItem.Enabled = True
+                    Case 9
+                        If vCar = 1 Then frm_Home.Sistema9ToolStripMenuItem.Enabled = True
                     Case 10
                         If vCar = 1 Then
                             'Sistema
@@ -40,13 +40,22 @@ Module functions
                             frm_Home.SeguridadToolStripMenuItem.Enabled = True
                             frm_Home.UsuariosToolStripMenuItem.Enabled = True
                             frm_Home.DatosToolStripMenuItem.Enabled = True
-                            'frm_Home.Sistema5ToolStripMenuItem.Enabled = True
-                            'frm_Home.Sistema6ToolStripMenuItem.Enabled = True
-                            'frm_Home.Sistema7ToolStripMenuItem.Enabled = True
-                            'frm_Home.Sistema8ToolStripMenuItem.Enabled = True
-                            'frm_Home.Sistema9ToolStripMenuItem.Enabled = True
+                            frm_Home.Sistema5ToolStripMenuItem.Enabled = True
+                            frm_Home.Sistema6ToolStripMenuItem.Enabled = True
+                            frm_Home.Sistema7ToolStripMenuItem.Enabled = True
+                            frm_Home.Sistema8ToolStripMenuItem.Enabled = True
+                            frm_Home.Sistema9ToolStripMenuItem.Enabled = True
 
                             'Ventas
+                            frm_Home.PedidosWebToolStripMenuItem.Enabled = True
+                            frm_Home.PedidosProcesadosToolStripMenuItem1.Enabled = True
+                            frm_Home.Ventas3ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas4ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas5ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas6ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas7ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas8ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas9ToolStripMenuItem.Enabled = True
 
                             'Botones
                             frm_Home.SistemaToolStripMenuItem.Enabled = True
@@ -59,15 +68,35 @@ Module functions
                             Exit Function
                         End If
                     Case 11
+                        If vCar = 1 Then frm_Home.PedidosWebToolStripMenuItem.Enabled = True
                     Case 12
+                        If vCar = 1 Then frm_Home.PedidosProcesadosToolStripMenuItem1.Enabled = True
                     Case 13
+                        If vCar = 1 Then frm_Home.Ventas3ToolStripMenuItem.Enabled = True
                     Case 14
+                        If vCar = 1 Then frm_Home.Ventas4ToolStripMenuItem.Enabled = True
                     Case 15
+                        If vCar = 1 Then frm_Home.Ventas5ToolStripMenuItem.Enabled = True
                     Case 16
+                        If vCar = 1 Then frm_Home.Ventas6ToolStripMenuItem.Enabled = True
                     Case 17
+                        If vCar = 1 Then frm_Home.Ventas7ToolStripMenuItem.Enabled = True
                     Case 18
+                        If vCar = 1 Then frm_Home.Ventas8ToolStripMenuItem.Enabled = True
                     Case 19
+                        If vCar = 1 Then frm_Home.Ventas9ToolStripMenuItem.Enabled = True
                     Case 20
+                        If vCar = 1 Then
+                            frm_Home.Ventas3ToolStripMenuItem.Enabled = True
+                            frm_Home.PedidosProcesadosToolStripMenuItem1.Enabled = True
+                            frm_Home.Ventas3ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas4ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas5ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas6ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas7ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas8ToolStripMenuItem.Enabled = True
+                            frm_Home.Ventas9ToolStripMenuItem.Enabled = True
+                        End If
                     Case 21
                     Case 22
                     Case 23
