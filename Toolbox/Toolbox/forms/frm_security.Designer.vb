@@ -24,19 +24,17 @@ Partial Class frm_security
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.tp_generals = New System.Windows.Forms.TabPage()
-        Me.tp_modules = New System.Windows.Forms.TabPage()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.chkb_Rep10 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Rep9 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Rep8 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Rep7 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Rep6 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Rep5 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Rep4 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Rep3 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Rep2 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Rep1 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox13 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox18 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.chkb_Bot10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Bot9 = New System.Windows.Forms.CheckBox()
@@ -48,6 +46,7 @@ Partial Class frm_security
         Me.chkb_Bot3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Bot2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Bot1 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.chkb_Mod10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Mod9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Mod8 = New System.Windows.Forms.CheckBox()
@@ -58,65 +57,19 @@ Partial Class frm_security
         Me.chkb_Mod3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Mod2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Mod1 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.chkb_Rep10 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Rep9 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Rep8 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Rep7 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Rep6 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Rep5 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Rep4 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Rep3 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Rep2 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Rep1 = New System.Windows.Forms.CheckBox()
+        Me.tp_modules = New System.Windows.Forms.TabPage()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
-        Me.tp_modules2 = New System.Windows.Forms.TabPage()
-        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
-        Me.chkb_Adm10 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Adm9 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Adm8 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Adm7 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Adm6 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Adm5 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Adm4 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Adm3 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Adm2 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Adm1 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger10 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger9 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger8 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger7 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger6 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger5 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger4 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger3 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger2 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Ger1 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA10 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA9 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA8 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA7 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA6 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA5 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA4 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA3 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA2 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA1 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA20 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA19 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA18 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA17 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA16 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA15 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA14 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA13 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA12 = New System.Windows.Forms.CheckBox()
-        Me.chkb_SA11 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob10 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob9 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob8 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob7 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob6 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob5 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob4 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob3 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob2 = New System.Windows.Forms.CheckBox()
-        Me.chkb_Cob1 = New System.Windows.Forms.CheckBox()
         Me.chkb_Inv10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Inv9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Inv8 = New System.Windows.Forms.CheckBox()
@@ -127,6 +80,7 @@ Partial Class frm_security
         Me.chkb_Inv3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Inv2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Inv1 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.chkb_Env10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Env9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Env8 = New System.Windows.Forms.CheckBox()
@@ -137,6 +91,7 @@ Partial Class frm_security
         Me.chkb_Env3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Env2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Env1 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.chkb_Ven10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ven9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ven8 = New System.Windows.Forms.CheckBox()
@@ -147,16 +102,75 @@ Partial Class frm_security
         Me.chkb_Ven3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ven2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ven1 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.chkb_Cob10 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Cob9 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Cob8 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Cob7 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Cob6 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Cob5 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Cob4 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Cob3 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Cob2 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Cob1 = New System.Windows.Forms.CheckBox()
+        Me.tp_modules2 = New System.Windows.Forms.TabPage()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.chkb_SA20 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA19 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA18 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA17 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA16 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA15 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA14 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA13 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA12 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA11 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.chkb_Ger10 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Ger9 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Ger8 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Ger7 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Ger6 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Ger5 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Ger4 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Ger3 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Ger2 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Ger1 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.chkb_Adm10 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Adm9 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Adm8 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Adm7 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Adm6 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Adm5 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Adm4 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Adm3 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Adm2 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Adm1 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.chkb_SA10 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA9 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA8 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA7 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA6 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA5 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA4 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA3 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA2 = New System.Windows.Forms.CheckBox()
+        Me.chkb_SA1 = New System.Windows.Forms.CheckBox()
+        Me.btn_guardar = New System.Windows.Forms.Button()
+        Me.btn_salir = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.tp_generals.SuspendLayout()
-        Me.tp_modules.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox13.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.tp_modules.SuspendLayout()
+        Me.GroupBox7.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
-        Me.GroupBox7.SuspendLayout()
         Me.tp_modules2.SuspendLayout()
         Me.GroupBox8.SuspendLayout()
         Me.GroupBox9.SuspendLayout()
@@ -170,16 +184,17 @@ Partial Class frm_security
         Me.TabControl1.Controls.Add(Me.tp_modules)
         Me.TabControl1.Controls.Add(Me.tp_modules2)
         Me.TabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.TabControl1.Location = New System.Drawing.Point(25, 28)
+        Me.TabControl1.Location = New System.Drawing.Point(23, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(839, 394)
         Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
-        Me.TabControl1.TabIndex = 1
+        Me.TabControl1.TabIndex = 2
         '
         'tp_generals
         '
         Me.tp_generals.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.tp_generals.Controls.Add(Me.GroupBox13)
         Me.tp_generals.Controls.Add(Me.GroupBox3)
         Me.tp_generals.Controls.Add(Me.GroupBox2)
         Me.tp_generals.Controls.Add(Me.GroupBox1)
@@ -190,157 +205,124 @@ Partial Class frm_security
         Me.tp_generals.TabIndex = 0
         Me.tp_generals.Text = "Generales"
         '
-        'tp_modules
+        'GroupBox13
         '
-        Me.tp_modules.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.tp_modules.Controls.Add(Me.GroupBox7)
-        Me.tp_modules.Controls.Add(Me.GroupBox4)
-        Me.tp_modules.Controls.Add(Me.GroupBox5)
-        Me.tp_modules.Controls.Add(Me.GroupBox6)
-        Me.tp_modules.Location = New System.Drawing.Point(4, 27)
-        Me.tp_modules.Name = "tp_modules"
-        Me.tp_modules.Padding = New System.Windows.Forms.Padding(3)
-        Me.tp_modules.Size = New System.Drawing.Size(831, 363)
-        Me.tp_modules.TabIndex = 1
-        Me.tp_modules.Text = "Modulos"
+        Me.GroupBox13.Controls.Add(Me.CheckBox11)
+        Me.GroupBox13.Controls.Add(Me.CheckBox12)
+        Me.GroupBox13.Controls.Add(Me.CheckBox13)
+        Me.GroupBox13.Controls.Add(Me.CheckBox14)
+        Me.GroupBox13.Controls.Add(Me.CheckBox15)
+        Me.GroupBox13.Controls.Add(Me.CheckBox16)
+        Me.GroupBox13.Controls.Add(Me.CheckBox17)
+        Me.GroupBox13.Controls.Add(Me.CheckBox18)
+        Me.GroupBox13.Controls.Add(Me.CheckBox19)
+        Me.GroupBox13.Controls.Add(Me.CheckBox20)
+        Me.GroupBox13.Location = New System.Drawing.Point(625, 6)
+        Me.GroupBox13.Name = "GroupBox13"
+        Me.GroupBox13.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox13.TabIndex = 46
+        Me.GroupBox13.TabStop = False
+        Me.GroupBox13.Text = "Sistema"
         '
-        'GroupBox1
+        'CheckBox11
         '
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep10)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep9)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep8)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep7)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep6)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep5)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep4)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep3)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep2)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep1)
-        Me.GroupBox1.Location = New System.Drawing.Point(418, 6)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox1.TabIndex = 31
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Reportes"
+        Me.CheckBox11.AutoSize = True
+        Me.CheckBox11.Location = New System.Drawing.Point(54, 283)
+        Me.CheckBox11.Name = "CheckBox11"
+        Me.CheckBox11.Size = New System.Drawing.Size(60, 22)
+        Me.CheckBox11.TabIndex = 59
+        Me.CheckBox11.Text = "Todos"
+        Me.CheckBox11.UseVisualStyleBackColor = True
         '
-        'chkb_Rep10
+        'CheckBox12
         '
-        Me.chkb_Rep10.AutoSize = True
-        Me.chkb_Rep10.Location = New System.Drawing.Point(27, 283)
-        Me.chkb_Rep10.Name = "chkb_Rep10"
-        Me.chkb_Rep10.Size = New System.Drawing.Size(60, 22)
-        Me.chkb_Rep10.TabIndex = 39
-        Me.chkb_Rep10.Text = "Todos"
-        Me.chkb_Rep10.UseVisualStyleBackColor = True
+        Me.CheckBox12.AutoSize = True
+        Me.CheckBox12.Location = New System.Drawing.Point(54, 255)
+        Me.CheckBox12.Name = "CheckBox12"
+        Me.CheckBox12.Size = New System.Drawing.Size(92, 22)
+        Me.CheckBox12.TabIndex = 58
+        Me.CheckBox12.Text = "Sin Asignar"
+        Me.CheckBox12.UseVisualStyleBackColor = True
         '
-        'chkb_Rep9
+        'CheckBox13
         '
-        Me.chkb_Rep9.AutoSize = True
-        Me.chkb_Rep9.Location = New System.Drawing.Point(27, 255)
-        Me.chkb_Rep9.Name = "chkb_Rep9"
-        Me.chkb_Rep9.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Rep9.TabIndex = 38
-        Me.chkb_Rep9.Text = "Sin Asignar"
-        Me.chkb_Rep9.UseVisualStyleBackColor = True
+        Me.CheckBox13.AutoSize = True
+        Me.CheckBox13.Location = New System.Drawing.Point(54, 227)
+        Me.CheckBox13.Name = "CheckBox13"
+        Me.CheckBox13.Size = New System.Drawing.Size(92, 22)
+        Me.CheckBox13.TabIndex = 57
+        Me.CheckBox13.Text = "Sin Asignar"
+        Me.CheckBox13.UseVisualStyleBackColor = True
         '
-        'chkb_Rep8
+        'CheckBox14
         '
-        Me.chkb_Rep8.AutoSize = True
-        Me.chkb_Rep8.Location = New System.Drawing.Point(27, 227)
-        Me.chkb_Rep8.Name = "chkb_Rep8"
-        Me.chkb_Rep8.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Rep8.TabIndex = 37
-        Me.chkb_Rep8.Text = "Sin Asignar"
-        Me.chkb_Rep8.UseVisualStyleBackColor = True
+        Me.CheckBox14.AutoSize = True
+        Me.CheckBox14.Location = New System.Drawing.Point(54, 199)
+        Me.CheckBox14.Name = "CheckBox14"
+        Me.CheckBox14.Size = New System.Drawing.Size(92, 22)
+        Me.CheckBox14.TabIndex = 56
+        Me.CheckBox14.Text = "Sin Asignar"
+        Me.CheckBox14.UseVisualStyleBackColor = True
         '
-        'chkb_Rep7
+        'CheckBox15
         '
-        Me.chkb_Rep7.AutoSize = True
-        Me.chkb_Rep7.Location = New System.Drawing.Point(27, 199)
-        Me.chkb_Rep7.Name = "chkb_Rep7"
-        Me.chkb_Rep7.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Rep7.TabIndex = 36
-        Me.chkb_Rep7.Text = "Sin Asignar"
-        Me.chkb_Rep7.UseVisualStyleBackColor = True
+        Me.CheckBox15.AutoSize = True
+        Me.CheckBox15.Location = New System.Drawing.Point(54, 171)
+        Me.CheckBox15.Name = "CheckBox15"
+        Me.CheckBox15.Size = New System.Drawing.Size(92, 22)
+        Me.CheckBox15.TabIndex = 55
+        Me.CheckBox15.Text = "Sin Asignar"
+        Me.CheckBox15.UseVisualStyleBackColor = True
         '
-        'chkb_Rep6
+        'CheckBox16
         '
-        Me.chkb_Rep6.AutoSize = True
-        Me.chkb_Rep6.Location = New System.Drawing.Point(27, 171)
-        Me.chkb_Rep6.Name = "chkb_Rep6"
-        Me.chkb_Rep6.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Rep6.TabIndex = 35
-        Me.chkb_Rep6.Text = "Sin Asignar"
-        Me.chkb_Rep6.UseVisualStyleBackColor = True
+        Me.CheckBox16.AutoSize = True
+        Me.CheckBox16.Location = New System.Drawing.Point(54, 143)
+        Me.CheckBox16.Name = "CheckBox16"
+        Me.CheckBox16.Size = New System.Drawing.Size(60, 22)
+        Me.CheckBox16.TabIndex = 54
+        Me.CheckBox16.Text = "Datos"
+        Me.CheckBox16.UseVisualStyleBackColor = True
         '
-        'chkb_Rep5
+        'CheckBox17
         '
-        Me.chkb_Rep5.AutoSize = True
-        Me.chkb_Rep5.Location = New System.Drawing.Point(27, 143)
-        Me.chkb_Rep5.Name = "chkb_Rep5"
-        Me.chkb_Rep5.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Rep5.TabIndex = 34
-        Me.chkb_Rep5.Text = "Sin Asignar"
-        Me.chkb_Rep5.UseVisualStyleBackColor = True
+        Me.CheckBox17.AutoSize = True
+        Me.CheckBox17.Location = New System.Drawing.Point(54, 115)
+        Me.CheckBox17.Name = "CheckBox17"
+        Me.CheckBox17.Size = New System.Drawing.Size(77, 22)
+        Me.CheckBox17.TabIndex = 53
+        Me.CheckBox17.Text = "Usuarios"
+        Me.CheckBox17.UseVisualStyleBackColor = True
         '
-        'chkb_Rep4
+        'CheckBox18
         '
-        Me.chkb_Rep4.AutoSize = True
-        Me.chkb_Rep4.Location = New System.Drawing.Point(27, 115)
-        Me.chkb_Rep4.Name = "chkb_Rep4"
-        Me.chkb_Rep4.Size = New System.Drawing.Size(67, 22)
-        Me.chkb_Rep4.TabIndex = 33
-        Me.chkb_Rep4.Text = "Bancos"
-        Me.chkb_Rep4.UseVisualStyleBackColor = True
+        Me.CheckBox18.AutoSize = True
+        Me.CheckBox18.Location = New System.Drawing.Point(54, 87)
+        Me.CheckBox18.Name = "CheckBox18"
+        Me.CheckBox18.Size = New System.Drawing.Size(85, 22)
+        Me.CheckBox18.TabIndex = 52
+        Me.CheckBox18.Text = "Seguridad"
+        Me.CheckBox18.UseVisualStyleBackColor = True
         '
-        'chkb_Rep3
+        'CheckBox19
         '
-        Me.chkb_Rep3.AutoSize = True
-        Me.chkb_Rep3.Location = New System.Drawing.Point(27, 87)
-        Me.chkb_Rep3.Name = "chkb_Rep3"
-        Me.chkb_Rep3.Size = New System.Drawing.Size(93, 22)
-        Me.chkb_Rep3.TabIndex = 32
-        Me.chkb_Rep3.Text = "Vendedores"
-        Me.chkb_Rep3.UseVisualStyleBackColor = True
+        Me.CheckBox19.AutoSize = True
+        Me.CheckBox19.Location = New System.Drawing.Point(54, 59)
+        Me.CheckBox19.Name = "CheckBox19"
+        Me.CheckBox19.Size = New System.Drawing.Size(93, 22)
+        Me.CheckBox19.TabIndex = 51
+        Me.CheckBox19.Text = "Parámetros"
+        Me.CheckBox19.UseVisualStyleBackColor = True
         '
-        'chkb_Rep2
+        'CheckBox20
         '
-        Me.chkb_Rep2.AutoSize = True
-        Me.chkb_Rep2.Location = New System.Drawing.Point(27, 59)
-        Me.chkb_Rep2.Name = "chkb_Rep2"
-        Me.chkb_Rep2.Size = New System.Drawing.Size(74, 22)
-        Me.chkb_Rep2.TabIndex = 31
-        Me.chkb_Rep2.Text = "Clientes"
-        Me.chkb_Rep2.UseVisualStyleBackColor = True
-        '
-        'chkb_Rep1
-        '
-        Me.chkb_Rep1.AutoSize = True
-        Me.chkb_Rep1.Location = New System.Drawing.Point(27, 31)
-        Me.chkb_Rep1.Name = "chkb_Rep1"
-        Me.chkb_Rep1.Size = New System.Drawing.Size(125, 22)
-        Me.chkb_Rep1.TabIndex = 30
-        Me.chkb_Rep1.Text = "Listas de Precios"
-        Me.chkb_Rep1.UseVisualStyleBackColor = True
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod10)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod9)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod8)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod7)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod6)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod5)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod4)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod3)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod2)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod1)
-        Me.GroupBox2.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox2.TabIndex = 32
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Modulos"
+        Me.CheckBox20.AutoSize = True
+        Me.CheckBox20.Location = New System.Drawing.Point(54, 31)
+        Me.CheckBox20.Name = "CheckBox20"
+        Me.CheckBox20.Size = New System.Drawing.Size(131, 22)
+        Me.CheckBox20.TabIndex = 50
+        Me.CheckBox20.Text = "Login con Usuario"
+        Me.CheckBox20.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
@@ -461,6 +443,25 @@ Partial Class frm_security
         Me.chkb_Bot1.Text = "Sincronizador"
         Me.chkb_Bot1.UseVisualStyleBackColor = True
         '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod10)
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod9)
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod8)
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod7)
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod6)
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod5)
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod4)
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod3)
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod2)
+        Me.GroupBox2.Controls.Add(Me.chkb_Mod1)
+        Me.GroupBox2.Location = New System.Drawing.Point(6, 6)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox2.TabIndex = 32
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Modulos"
+        '
         'chkb_Mod10
         '
         Me.chkb_Mod10.AutoSize = True
@@ -561,62 +562,138 @@ Partial Class frm_security
         Me.chkb_Mod1.Text = "Ventas"
         Me.chkb_Mod1.UseVisualStyleBackColor = True
         '
-        'GroupBox4
+        'GroupBox1
         '
-        Me.GroupBox4.Controls.Add(Me.chkb_Env10)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env9)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env8)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env7)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env6)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env5)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env4)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env3)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env2)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env1)
-        Me.GroupBox4.Location = New System.Drawing.Point(212, 6)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox4.TabIndex = 36
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Envíos"
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep10)
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep9)
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep8)
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep7)
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep6)
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep5)
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep4)
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep3)
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep2)
+        Me.GroupBox1.Controls.Add(Me.chkb_Rep1)
+        Me.GroupBox1.Location = New System.Drawing.Point(418, 6)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox1.TabIndex = 31
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Reportes"
         '
-        'GroupBox5
+        'chkb_Rep10
         '
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven10)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven9)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven8)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven7)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven6)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven5)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven4)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven3)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven2)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven1)
-        Me.GroupBox5.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox5.TabIndex = 35
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Ventas"
+        Me.chkb_Rep10.AutoSize = True
+        Me.chkb_Rep10.Location = New System.Drawing.Point(27, 283)
+        Me.chkb_Rep10.Name = "chkb_Rep10"
+        Me.chkb_Rep10.Size = New System.Drawing.Size(60, 22)
+        Me.chkb_Rep10.TabIndex = 39
+        Me.chkb_Rep10.Text = "Todos"
+        Me.chkb_Rep10.UseVisualStyleBackColor = True
         '
-        'GroupBox6
+        'chkb_Rep9
         '
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob10)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob9)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob8)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob7)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob6)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob5)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob4)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob3)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob2)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob1)
-        Me.GroupBox6.Location = New System.Drawing.Point(418, 6)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox6.TabIndex = 34
-        Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "Cobranzas"
+        Me.chkb_Rep9.AutoSize = True
+        Me.chkb_Rep9.Location = New System.Drawing.Point(27, 255)
+        Me.chkb_Rep9.Name = "chkb_Rep9"
+        Me.chkb_Rep9.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Rep9.TabIndex = 38
+        Me.chkb_Rep9.Text = "Sin Asignar"
+        Me.chkb_Rep9.UseVisualStyleBackColor = True
+        '
+        'chkb_Rep8
+        '
+        Me.chkb_Rep8.AutoSize = True
+        Me.chkb_Rep8.Location = New System.Drawing.Point(27, 227)
+        Me.chkb_Rep8.Name = "chkb_Rep8"
+        Me.chkb_Rep8.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Rep8.TabIndex = 37
+        Me.chkb_Rep8.Text = "Sin Asignar"
+        Me.chkb_Rep8.UseVisualStyleBackColor = True
+        '
+        'chkb_Rep7
+        '
+        Me.chkb_Rep7.AutoSize = True
+        Me.chkb_Rep7.Location = New System.Drawing.Point(27, 199)
+        Me.chkb_Rep7.Name = "chkb_Rep7"
+        Me.chkb_Rep7.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Rep7.TabIndex = 36
+        Me.chkb_Rep7.Text = "Sin Asignar"
+        Me.chkb_Rep7.UseVisualStyleBackColor = True
+        '
+        'chkb_Rep6
+        '
+        Me.chkb_Rep6.AutoSize = True
+        Me.chkb_Rep6.Location = New System.Drawing.Point(27, 171)
+        Me.chkb_Rep6.Name = "chkb_Rep6"
+        Me.chkb_Rep6.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Rep6.TabIndex = 35
+        Me.chkb_Rep6.Text = "Sin Asignar"
+        Me.chkb_Rep6.UseVisualStyleBackColor = True
+        '
+        'chkb_Rep5
+        '
+        Me.chkb_Rep5.AutoSize = True
+        Me.chkb_Rep5.Location = New System.Drawing.Point(27, 143)
+        Me.chkb_Rep5.Name = "chkb_Rep5"
+        Me.chkb_Rep5.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Rep5.TabIndex = 34
+        Me.chkb_Rep5.Text = "Sin Asignar"
+        Me.chkb_Rep5.UseVisualStyleBackColor = True
+        '
+        'chkb_Rep4
+        '
+        Me.chkb_Rep4.AutoSize = True
+        Me.chkb_Rep4.Location = New System.Drawing.Point(27, 115)
+        Me.chkb_Rep4.Name = "chkb_Rep4"
+        Me.chkb_Rep4.Size = New System.Drawing.Size(67, 22)
+        Me.chkb_Rep4.TabIndex = 33
+        Me.chkb_Rep4.Text = "Bancos"
+        Me.chkb_Rep4.UseVisualStyleBackColor = True
+        '
+        'chkb_Rep3
+        '
+        Me.chkb_Rep3.AutoSize = True
+        Me.chkb_Rep3.Location = New System.Drawing.Point(27, 87)
+        Me.chkb_Rep3.Name = "chkb_Rep3"
+        Me.chkb_Rep3.Size = New System.Drawing.Size(93, 22)
+        Me.chkb_Rep3.TabIndex = 32
+        Me.chkb_Rep3.Text = "Vendedores"
+        Me.chkb_Rep3.UseVisualStyleBackColor = True
+        '
+        'chkb_Rep2
+        '
+        Me.chkb_Rep2.AutoSize = True
+        Me.chkb_Rep2.Location = New System.Drawing.Point(27, 59)
+        Me.chkb_Rep2.Name = "chkb_Rep2"
+        Me.chkb_Rep2.Size = New System.Drawing.Size(74, 22)
+        Me.chkb_Rep2.TabIndex = 31
+        Me.chkb_Rep2.Text = "Clientes"
+        Me.chkb_Rep2.UseVisualStyleBackColor = True
+        '
+        'chkb_Rep1
+        '
+        Me.chkb_Rep1.AutoSize = True
+        Me.chkb_Rep1.Location = New System.Drawing.Point(27, 31)
+        Me.chkb_Rep1.Name = "chkb_Rep1"
+        Me.chkb_Rep1.Size = New System.Drawing.Size(125, 22)
+        Me.chkb_Rep1.TabIndex = 30
+        Me.chkb_Rep1.Text = "Listas de Precios"
+        Me.chkb_Rep1.UseVisualStyleBackColor = True
+        '
+        'tp_modules
+        '
+        Me.tp_modules.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.tp_modules.Controls.Add(Me.GroupBox7)
+        Me.tp_modules.Controls.Add(Me.GroupBox4)
+        Me.tp_modules.Controls.Add(Me.GroupBox5)
+        Me.tp_modules.Controls.Add(Me.GroupBox6)
+        Me.tp_modules.Location = New System.Drawing.Point(4, 27)
+        Me.tp_modules.Name = "tp_modules"
+        Me.tp_modules.Padding = New System.Windows.Forms.Padding(3)
+        Me.tp_modules.Size = New System.Drawing.Size(831, 363)
+        Me.tp_modules.TabIndex = 1
+        Me.tp_modules.Text = "Modulos"
         '
         'GroupBox7
         '
@@ -636,596 +713,6 @@ Partial Class frm_security
         Me.GroupBox7.TabIndex = 40
         Me.GroupBox7.TabStop = False
         Me.GroupBox7.Text = "Inventario"
-        '
-        'tp_modules2
-        '
-        Me.tp_modules2.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.tp_modules2.Controls.Add(Me.GroupBox8)
-        Me.tp_modules2.Controls.Add(Me.GroupBox9)
-        Me.tp_modules2.Controls.Add(Me.GroupBox10)
-        Me.tp_modules2.Controls.Add(Me.GroupBox11)
-        Me.tp_modules2.Location = New System.Drawing.Point(4, 27)
-        Me.tp_modules2.Name = "tp_modules2"
-        Me.tp_modules2.Padding = New System.Windows.Forms.Padding(3)
-        Me.tp_modules2.Size = New System.Drawing.Size(831, 363)
-        Me.tp_modules2.TabIndex = 2
-        Me.tp_modules2.Text = "Modulos"
-        '
-        'GroupBox8
-        '
-        Me.GroupBox8.Controls.Add(Me.chkb_SA20)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA19)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA18)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA17)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA16)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA15)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA14)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA13)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA12)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA11)
-        Me.GroupBox8.Location = New System.Drawing.Point(624, 6)
-        Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox8.TabIndex = 44
-        Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "Sin Asignar"
-        '
-        'GroupBox9
-        '
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger10)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger9)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger8)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger7)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger6)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger5)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger4)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger3)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger2)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger1)
-        Me.GroupBox9.Location = New System.Drawing.Point(212, 6)
-        Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox9.TabIndex = 43
-        Me.GroupBox9.TabStop = False
-        Me.GroupBox9.Text = "Información Gerencial"
-        '
-        'GroupBox10
-        '
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm10)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm9)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm8)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm7)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm6)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm5)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm4)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm3)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm2)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm1)
-        Me.GroupBox10.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox10.TabIndex = 42
-        Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "Administración"
-        '
-        'GroupBox11
-        '
-        Me.GroupBox11.Controls.Add(Me.chkb_SA10)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA9)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA8)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA7)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA6)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA5)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA4)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA3)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA2)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA1)
-        Me.GroupBox11.Location = New System.Drawing.Point(418, 6)
-        Me.GroupBox11.Name = "GroupBox11"
-        Me.GroupBox11.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox11.TabIndex = 41
-        Me.GroupBox11.TabStop = False
-        Me.GroupBox11.Text = "Sin Asignar"
-        '
-        'chkb_Adm10
-        '
-        Me.chkb_Adm10.AutoSize = True
-        Me.chkb_Adm10.Location = New System.Drawing.Point(54, 283)
-        Me.chkb_Adm10.Name = "chkb_Adm10"
-        Me.chkb_Adm10.Size = New System.Drawing.Size(60, 22)
-        Me.chkb_Adm10.TabIndex = 49
-        Me.chkb_Adm10.Text = "Todos"
-        Me.chkb_Adm10.UseVisualStyleBackColor = True
-        '
-        'chkb_Adm9
-        '
-        Me.chkb_Adm9.AutoSize = True
-        Me.chkb_Adm9.Location = New System.Drawing.Point(54, 255)
-        Me.chkb_Adm9.Name = "chkb_Adm9"
-        Me.chkb_Adm9.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Adm9.TabIndex = 48
-        Me.chkb_Adm9.Text = "Sin Asignar"
-        Me.chkb_Adm9.UseVisualStyleBackColor = True
-        '
-        'chkb_Adm8
-        '
-        Me.chkb_Adm8.AutoSize = True
-        Me.chkb_Adm8.Location = New System.Drawing.Point(54, 227)
-        Me.chkb_Adm8.Name = "chkb_Adm8"
-        Me.chkb_Adm8.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Adm8.TabIndex = 47
-        Me.chkb_Adm8.Text = "Sin Asignar"
-        Me.chkb_Adm8.UseVisualStyleBackColor = True
-        '
-        'chkb_Adm7
-        '
-        Me.chkb_Adm7.AutoSize = True
-        Me.chkb_Adm7.Location = New System.Drawing.Point(54, 199)
-        Me.chkb_Adm7.Name = "chkb_Adm7"
-        Me.chkb_Adm7.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Adm7.TabIndex = 46
-        Me.chkb_Adm7.Text = "Sin Asignar"
-        Me.chkb_Adm7.UseVisualStyleBackColor = True
-        '
-        'chkb_Adm6
-        '
-        Me.chkb_Adm6.AutoSize = True
-        Me.chkb_Adm6.Location = New System.Drawing.Point(54, 171)
-        Me.chkb_Adm6.Name = "chkb_Adm6"
-        Me.chkb_Adm6.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Adm6.TabIndex = 45
-        Me.chkb_Adm6.Text = "Sin Asignar"
-        Me.chkb_Adm6.UseVisualStyleBackColor = True
-        '
-        'chkb_Adm5
-        '
-        Me.chkb_Adm5.AutoSize = True
-        Me.chkb_Adm5.Location = New System.Drawing.Point(54, 143)
-        Me.chkb_Adm5.Name = "chkb_Adm5"
-        Me.chkb_Adm5.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Adm5.TabIndex = 44
-        Me.chkb_Adm5.Text = "Sin Asignar"
-        Me.chkb_Adm5.UseVisualStyleBackColor = True
-        '
-        'chkb_Adm4
-        '
-        Me.chkb_Adm4.AutoSize = True
-        Me.chkb_Adm4.Location = New System.Drawing.Point(54, 115)
-        Me.chkb_Adm4.Name = "chkb_Adm4"
-        Me.chkb_Adm4.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Adm4.TabIndex = 43
-        Me.chkb_Adm4.Text = "Sin Asignar"
-        Me.chkb_Adm4.UseVisualStyleBackColor = True
-        '
-        'chkb_Adm3
-        '
-        Me.chkb_Adm3.AutoSize = True
-        Me.chkb_Adm3.Location = New System.Drawing.Point(54, 87)
-        Me.chkb_Adm3.Name = "chkb_Adm3"
-        Me.chkb_Adm3.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Adm3.TabIndex = 42
-        Me.chkb_Adm3.Text = "Sin Asignar"
-        Me.chkb_Adm3.UseVisualStyleBackColor = True
-        '
-        'chkb_Adm2
-        '
-        Me.chkb_Adm2.AutoSize = True
-        Me.chkb_Adm2.Location = New System.Drawing.Point(54, 59)
-        Me.chkb_Adm2.Name = "chkb_Adm2"
-        Me.chkb_Adm2.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Adm2.TabIndex = 41
-        Me.chkb_Adm2.Text = "Sin Asignar"
-        Me.chkb_Adm2.UseVisualStyleBackColor = True
-        '
-        'chkb_Adm1
-        '
-        Me.chkb_Adm1.AutoSize = True
-        Me.chkb_Adm1.Location = New System.Drawing.Point(54, 31)
-        Me.chkb_Adm1.Name = "chkb_Adm1"
-        Me.chkb_Adm1.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Adm1.TabIndex = 40
-        Me.chkb_Adm1.Text = "Sin Asignar"
-        Me.chkb_Adm1.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger10
-        '
-        Me.chkb_Ger10.AutoSize = True
-        Me.chkb_Ger10.Location = New System.Drawing.Point(54, 283)
-        Me.chkb_Ger10.Name = "chkb_Ger10"
-        Me.chkb_Ger10.Size = New System.Drawing.Size(60, 22)
-        Me.chkb_Ger10.TabIndex = 59
-        Me.chkb_Ger10.Text = "Todos"
-        Me.chkb_Ger10.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger9
-        '
-        Me.chkb_Ger9.AutoSize = True
-        Me.chkb_Ger9.Location = New System.Drawing.Point(54, 255)
-        Me.chkb_Ger9.Name = "chkb_Ger9"
-        Me.chkb_Ger9.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Ger9.TabIndex = 58
-        Me.chkb_Ger9.Text = "Sin Asignar"
-        Me.chkb_Ger9.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger8
-        '
-        Me.chkb_Ger8.AutoSize = True
-        Me.chkb_Ger8.Location = New System.Drawing.Point(54, 227)
-        Me.chkb_Ger8.Name = "chkb_Ger8"
-        Me.chkb_Ger8.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Ger8.TabIndex = 57
-        Me.chkb_Ger8.Text = "Sin Asignar"
-        Me.chkb_Ger8.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger7
-        '
-        Me.chkb_Ger7.AutoSize = True
-        Me.chkb_Ger7.Location = New System.Drawing.Point(54, 199)
-        Me.chkb_Ger7.Name = "chkb_Ger7"
-        Me.chkb_Ger7.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Ger7.TabIndex = 56
-        Me.chkb_Ger7.Text = "Sin Asignar"
-        Me.chkb_Ger7.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger6
-        '
-        Me.chkb_Ger6.AutoSize = True
-        Me.chkb_Ger6.Location = New System.Drawing.Point(54, 171)
-        Me.chkb_Ger6.Name = "chkb_Ger6"
-        Me.chkb_Ger6.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Ger6.TabIndex = 55
-        Me.chkb_Ger6.Text = "Sin Asignar"
-        Me.chkb_Ger6.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger5
-        '
-        Me.chkb_Ger5.AutoSize = True
-        Me.chkb_Ger5.Location = New System.Drawing.Point(54, 143)
-        Me.chkb_Ger5.Name = "chkb_Ger5"
-        Me.chkb_Ger5.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Ger5.TabIndex = 54
-        Me.chkb_Ger5.Text = "Sin Asignar"
-        Me.chkb_Ger5.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger4
-        '
-        Me.chkb_Ger4.AutoSize = True
-        Me.chkb_Ger4.Location = New System.Drawing.Point(54, 115)
-        Me.chkb_Ger4.Name = "chkb_Ger4"
-        Me.chkb_Ger4.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Ger4.TabIndex = 53
-        Me.chkb_Ger4.Text = "Sin Asignar"
-        Me.chkb_Ger4.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger3
-        '
-        Me.chkb_Ger3.AutoSize = True
-        Me.chkb_Ger3.Location = New System.Drawing.Point(54, 87)
-        Me.chkb_Ger3.Name = "chkb_Ger3"
-        Me.chkb_Ger3.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Ger3.TabIndex = 52
-        Me.chkb_Ger3.Text = "Sin Asignar"
-        Me.chkb_Ger3.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger2
-        '
-        Me.chkb_Ger2.AutoSize = True
-        Me.chkb_Ger2.Location = New System.Drawing.Point(54, 59)
-        Me.chkb_Ger2.Name = "chkb_Ger2"
-        Me.chkb_Ger2.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Ger2.TabIndex = 51
-        Me.chkb_Ger2.Text = "Sin Asignar"
-        Me.chkb_Ger2.UseVisualStyleBackColor = True
-        '
-        'chkb_Ger1
-        '
-        Me.chkb_Ger1.AutoSize = True
-        Me.chkb_Ger1.Location = New System.Drawing.Point(54, 31)
-        Me.chkb_Ger1.Name = "chkb_Ger1"
-        Me.chkb_Ger1.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Ger1.TabIndex = 50
-        Me.chkb_Ger1.Text = "Sin Asignar"
-        Me.chkb_Ger1.UseVisualStyleBackColor = True
-        '
-        'chkb_SA10
-        '
-        Me.chkb_SA10.AutoSize = True
-        Me.chkb_SA10.Location = New System.Drawing.Point(54, 283)
-        Me.chkb_SA10.Name = "chkb_SA10"
-        Me.chkb_SA10.Size = New System.Drawing.Size(60, 22)
-        Me.chkb_SA10.TabIndex = 59
-        Me.chkb_SA10.Text = "Todos"
-        Me.chkb_SA10.UseVisualStyleBackColor = True
-        '
-        'chkb_SA9
-        '
-        Me.chkb_SA9.AutoSize = True
-        Me.chkb_SA9.Location = New System.Drawing.Point(54, 255)
-        Me.chkb_SA9.Name = "chkb_SA9"
-        Me.chkb_SA9.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA9.TabIndex = 58
-        Me.chkb_SA9.Text = "Sin Asignar"
-        Me.chkb_SA9.UseVisualStyleBackColor = True
-        '
-        'chkb_SA8
-        '
-        Me.chkb_SA8.AutoSize = True
-        Me.chkb_SA8.Location = New System.Drawing.Point(54, 227)
-        Me.chkb_SA8.Name = "chkb_SA8"
-        Me.chkb_SA8.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA8.TabIndex = 57
-        Me.chkb_SA8.Text = "Sin Asignar"
-        Me.chkb_SA8.UseVisualStyleBackColor = True
-        '
-        'chkb_SA7
-        '
-        Me.chkb_SA7.AutoSize = True
-        Me.chkb_SA7.Location = New System.Drawing.Point(54, 199)
-        Me.chkb_SA7.Name = "chkb_SA7"
-        Me.chkb_SA7.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA7.TabIndex = 56
-        Me.chkb_SA7.Text = "Sin Asignar"
-        Me.chkb_SA7.UseVisualStyleBackColor = True
-        '
-        'chkb_SA6
-        '
-        Me.chkb_SA6.AutoSize = True
-        Me.chkb_SA6.Location = New System.Drawing.Point(54, 171)
-        Me.chkb_SA6.Name = "chkb_SA6"
-        Me.chkb_SA6.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA6.TabIndex = 55
-        Me.chkb_SA6.Text = "Sin Asignar"
-        Me.chkb_SA6.UseVisualStyleBackColor = True
-        '
-        'chkb_SA5
-        '
-        Me.chkb_SA5.AutoSize = True
-        Me.chkb_SA5.Location = New System.Drawing.Point(54, 143)
-        Me.chkb_SA5.Name = "chkb_SA5"
-        Me.chkb_SA5.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA5.TabIndex = 54
-        Me.chkb_SA5.Text = "Sin Asignar"
-        Me.chkb_SA5.UseVisualStyleBackColor = True
-        '
-        'chkb_SA4
-        '
-        Me.chkb_SA4.AutoSize = True
-        Me.chkb_SA4.Location = New System.Drawing.Point(54, 115)
-        Me.chkb_SA4.Name = "chkb_SA4"
-        Me.chkb_SA4.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA4.TabIndex = 53
-        Me.chkb_SA4.Text = "Sin Asignar"
-        Me.chkb_SA4.UseVisualStyleBackColor = True
-        '
-        'chkb_SA3
-        '
-        Me.chkb_SA3.AutoSize = True
-        Me.chkb_SA3.Location = New System.Drawing.Point(54, 87)
-        Me.chkb_SA3.Name = "chkb_SA3"
-        Me.chkb_SA3.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA3.TabIndex = 52
-        Me.chkb_SA3.Text = "Sin Asignar"
-        Me.chkb_SA3.UseVisualStyleBackColor = True
-        '
-        'chkb_SA2
-        '
-        Me.chkb_SA2.AutoSize = True
-        Me.chkb_SA2.Location = New System.Drawing.Point(54, 59)
-        Me.chkb_SA2.Name = "chkb_SA2"
-        Me.chkb_SA2.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA2.TabIndex = 51
-        Me.chkb_SA2.Text = "Sin Asignar"
-        Me.chkb_SA2.UseVisualStyleBackColor = True
-        '
-        'chkb_SA1
-        '
-        Me.chkb_SA1.AutoSize = True
-        Me.chkb_SA1.Location = New System.Drawing.Point(54, 31)
-        Me.chkb_SA1.Name = "chkb_SA1"
-        Me.chkb_SA1.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA1.TabIndex = 50
-        Me.chkb_SA1.Text = "Sin Asignar"
-        Me.chkb_SA1.UseVisualStyleBackColor = True
-        '
-        'chkb_SA20
-        '
-        Me.chkb_SA20.AutoSize = True
-        Me.chkb_SA20.Location = New System.Drawing.Point(54, 283)
-        Me.chkb_SA20.Name = "chkb_SA20"
-        Me.chkb_SA20.Size = New System.Drawing.Size(60, 22)
-        Me.chkb_SA20.TabIndex = 59
-        Me.chkb_SA20.Text = "Todos"
-        Me.chkb_SA20.UseVisualStyleBackColor = True
-        '
-        'chkb_SA19
-        '
-        Me.chkb_SA19.AutoSize = True
-        Me.chkb_SA19.Location = New System.Drawing.Point(54, 255)
-        Me.chkb_SA19.Name = "chkb_SA19"
-        Me.chkb_SA19.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA19.TabIndex = 58
-        Me.chkb_SA19.Text = "Sin Asignar"
-        Me.chkb_SA19.UseVisualStyleBackColor = True
-        '
-        'chkb_SA18
-        '
-        Me.chkb_SA18.AutoSize = True
-        Me.chkb_SA18.Location = New System.Drawing.Point(54, 227)
-        Me.chkb_SA18.Name = "chkb_SA18"
-        Me.chkb_SA18.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA18.TabIndex = 57
-        Me.chkb_SA18.Text = "Sin Asignar"
-        Me.chkb_SA18.UseVisualStyleBackColor = True
-        '
-        'chkb_SA17
-        '
-        Me.chkb_SA17.AutoSize = True
-        Me.chkb_SA17.Location = New System.Drawing.Point(54, 199)
-        Me.chkb_SA17.Name = "chkb_SA17"
-        Me.chkb_SA17.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA17.TabIndex = 56
-        Me.chkb_SA17.Text = "Sin Asignar"
-        Me.chkb_SA17.UseVisualStyleBackColor = True
-        '
-        'chkb_SA16
-        '
-        Me.chkb_SA16.AutoSize = True
-        Me.chkb_SA16.Location = New System.Drawing.Point(54, 171)
-        Me.chkb_SA16.Name = "chkb_SA16"
-        Me.chkb_SA16.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA16.TabIndex = 55
-        Me.chkb_SA16.Text = "Sin Asignar"
-        Me.chkb_SA16.UseVisualStyleBackColor = True
-        '
-        'chkb_SA15
-        '
-        Me.chkb_SA15.AutoSize = True
-        Me.chkb_SA15.Location = New System.Drawing.Point(54, 143)
-        Me.chkb_SA15.Name = "chkb_SA15"
-        Me.chkb_SA15.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA15.TabIndex = 54
-        Me.chkb_SA15.Text = "Sin Asignar"
-        Me.chkb_SA15.UseVisualStyleBackColor = True
-        '
-        'chkb_SA14
-        '
-        Me.chkb_SA14.AutoSize = True
-        Me.chkb_SA14.Location = New System.Drawing.Point(54, 115)
-        Me.chkb_SA14.Name = "chkb_SA14"
-        Me.chkb_SA14.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA14.TabIndex = 53
-        Me.chkb_SA14.Text = "Sin Asignar"
-        Me.chkb_SA14.UseVisualStyleBackColor = True
-        '
-        'chkb_SA13
-        '
-        Me.chkb_SA13.AutoSize = True
-        Me.chkb_SA13.Location = New System.Drawing.Point(54, 87)
-        Me.chkb_SA13.Name = "chkb_SA13"
-        Me.chkb_SA13.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA13.TabIndex = 52
-        Me.chkb_SA13.Text = "Sin Asignar"
-        Me.chkb_SA13.UseVisualStyleBackColor = True
-        '
-        'chkb_SA12
-        '
-        Me.chkb_SA12.AutoSize = True
-        Me.chkb_SA12.Location = New System.Drawing.Point(54, 59)
-        Me.chkb_SA12.Name = "chkb_SA12"
-        Me.chkb_SA12.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA12.TabIndex = 51
-        Me.chkb_SA12.Text = "Sin Asignar"
-        Me.chkb_SA12.UseVisualStyleBackColor = True
-        '
-        'chkb_SA11
-        '
-        Me.chkb_SA11.AutoSize = True
-        Me.chkb_SA11.Location = New System.Drawing.Point(54, 31)
-        Me.chkb_SA11.Name = "chkb_SA11"
-        Me.chkb_SA11.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_SA11.TabIndex = 50
-        Me.chkb_SA11.Text = "Sin Asignar"
-        Me.chkb_SA11.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob10
-        '
-        Me.chkb_Cob10.AutoSize = True
-        Me.chkb_Cob10.Location = New System.Drawing.Point(19, 283)
-        Me.chkb_Cob10.Name = "chkb_Cob10"
-        Me.chkb_Cob10.Size = New System.Drawing.Size(60, 22)
-        Me.chkb_Cob10.TabIndex = 49
-        Me.chkb_Cob10.Text = "Todos"
-        Me.chkb_Cob10.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob9
-        '
-        Me.chkb_Cob9.AutoSize = True
-        Me.chkb_Cob9.Location = New System.Drawing.Point(19, 255)
-        Me.chkb_Cob9.Name = "chkb_Cob9"
-        Me.chkb_Cob9.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Cob9.TabIndex = 48
-        Me.chkb_Cob9.Text = "Sin Asignar"
-        Me.chkb_Cob9.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob8
-        '
-        Me.chkb_Cob8.AutoSize = True
-        Me.chkb_Cob8.Location = New System.Drawing.Point(19, 227)
-        Me.chkb_Cob8.Name = "chkb_Cob8"
-        Me.chkb_Cob8.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Cob8.TabIndex = 47
-        Me.chkb_Cob8.Text = "Sin Asignar"
-        Me.chkb_Cob8.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob7
-        '
-        Me.chkb_Cob7.AutoSize = True
-        Me.chkb_Cob7.Location = New System.Drawing.Point(19, 199)
-        Me.chkb_Cob7.Name = "chkb_Cob7"
-        Me.chkb_Cob7.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Cob7.TabIndex = 46
-        Me.chkb_Cob7.Text = "Sin Asignar"
-        Me.chkb_Cob7.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob6
-        '
-        Me.chkb_Cob6.AutoSize = True
-        Me.chkb_Cob6.Location = New System.Drawing.Point(19, 171)
-        Me.chkb_Cob6.Name = "chkb_Cob6"
-        Me.chkb_Cob6.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Cob6.TabIndex = 45
-        Me.chkb_Cob6.Text = "Sin Asignar"
-        Me.chkb_Cob6.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob5
-        '
-        Me.chkb_Cob5.AutoSize = True
-        Me.chkb_Cob5.Location = New System.Drawing.Point(19, 143)
-        Me.chkb_Cob5.Name = "chkb_Cob5"
-        Me.chkb_Cob5.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Cob5.TabIndex = 44
-        Me.chkb_Cob5.Text = "Sin Asignar"
-        Me.chkb_Cob5.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob4
-        '
-        Me.chkb_Cob4.AutoSize = True
-        Me.chkb_Cob4.Location = New System.Drawing.Point(19, 115)
-        Me.chkb_Cob4.Name = "chkb_Cob4"
-        Me.chkb_Cob4.Size = New System.Drawing.Size(92, 22)
-        Me.chkb_Cob4.TabIndex = 43
-        Me.chkb_Cob4.Text = "Sin Asignar"
-        Me.chkb_Cob4.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob3
-        '
-        Me.chkb_Cob3.AutoSize = True
-        Me.chkb_Cob3.Location = New System.Drawing.Point(19, 87)
-        Me.chkb_Cob3.Name = "chkb_Cob3"
-        Me.chkb_Cob3.Size = New System.Drawing.Size(143, 22)
-        Me.chkb_Cob3.TabIndex = 42
-        Me.chkb_Cob3.Text = "Cobros sin Conciliar"
-        Me.chkb_Cob3.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob2
-        '
-        Me.chkb_Cob2.AutoSize = True
-        Me.chkb_Cob2.Location = New System.Drawing.Point(19, 59)
-        Me.chkb_Cob2.Name = "chkb_Cob2"
-        Me.chkb_Cob2.Size = New System.Drawing.Size(162, 22)
-        Me.chkb_Cob2.TabIndex = 41
-        Me.chkb_Cob2.Text = "Movimientos Bancarios"
-        Me.chkb_Cob2.UseVisualStyleBackColor = True
-        '
-        'chkb_Cob1
-        '
-        Me.chkb_Cob1.AutoSize = True
-        Me.chkb_Cob1.Location = New System.Drawing.Point(19, 31)
-        Me.chkb_Cob1.Name = "chkb_Cob1"
-        Me.chkb_Cob1.Size = New System.Drawing.Size(96, 22)
-        Me.chkb_Cob1.TabIndex = 40
-        Me.chkb_Cob1.Text = "Cobros Web"
-        Me.chkb_Cob1.UseVisualStyleBackColor = True
         '
         'chkb_Inv10
         '
@@ -1327,6 +814,25 @@ Partial Class frm_security
         Me.chkb_Inv1.Text = "Auditoría de Datos"
         Me.chkb_Inv1.UseVisualStyleBackColor = True
         '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.chkb_Env10)
+        Me.GroupBox4.Controls.Add(Me.chkb_Env9)
+        Me.GroupBox4.Controls.Add(Me.chkb_Env8)
+        Me.GroupBox4.Controls.Add(Me.chkb_Env7)
+        Me.GroupBox4.Controls.Add(Me.chkb_Env6)
+        Me.GroupBox4.Controls.Add(Me.chkb_Env5)
+        Me.GroupBox4.Controls.Add(Me.chkb_Env4)
+        Me.GroupBox4.Controls.Add(Me.chkb_Env3)
+        Me.GroupBox4.Controls.Add(Me.chkb_Env2)
+        Me.GroupBox4.Controls.Add(Me.chkb_Env1)
+        Me.GroupBox4.Location = New System.Drawing.Point(212, 6)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox4.TabIndex = 36
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Envíos"
+        '
         'chkb_Env10
         '
         Me.chkb_Env10.AutoSize = True
@@ -1426,6 +932,25 @@ Partial Class frm_security
         Me.chkb_Env1.TabIndex = 50
         Me.chkb_Env1.Text = "Sobres"
         Me.chkb_Env1.UseVisualStyleBackColor = True
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven10)
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven9)
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven8)
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven7)
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven6)
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven5)
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven4)
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven3)
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven2)
+        Me.GroupBox5.Controls.Add(Me.chkb_Ven1)
+        Me.GroupBox5.Location = New System.Drawing.Point(6, 6)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox5.TabIndex = 35
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Ventas"
         '
         'chkb_Ven10
         '
@@ -1527,14 +1052,649 @@ Partial Class frm_security
         Me.chkb_Ven1.Text = "Pedidos Web"
         Me.chkb_Ven1.UseVisualStyleBackColor = True
         '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob10)
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob9)
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob8)
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob7)
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob6)
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob5)
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob4)
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob3)
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob2)
+        Me.GroupBox6.Controls.Add(Me.chkb_Cob1)
+        Me.GroupBox6.Location = New System.Drawing.Point(418, 6)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox6.TabIndex = 34
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "Cobranzas"
+        '
+        'chkb_Cob10
+        '
+        Me.chkb_Cob10.AutoSize = True
+        Me.chkb_Cob10.Location = New System.Drawing.Point(19, 283)
+        Me.chkb_Cob10.Name = "chkb_Cob10"
+        Me.chkb_Cob10.Size = New System.Drawing.Size(60, 22)
+        Me.chkb_Cob10.TabIndex = 49
+        Me.chkb_Cob10.Text = "Todos"
+        Me.chkb_Cob10.UseVisualStyleBackColor = True
+        '
+        'chkb_Cob9
+        '
+        Me.chkb_Cob9.AutoSize = True
+        Me.chkb_Cob9.Location = New System.Drawing.Point(19, 255)
+        Me.chkb_Cob9.Name = "chkb_Cob9"
+        Me.chkb_Cob9.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Cob9.TabIndex = 48
+        Me.chkb_Cob9.Text = "Sin Asignar"
+        Me.chkb_Cob9.UseVisualStyleBackColor = True
+        '
+        'chkb_Cob8
+        '
+        Me.chkb_Cob8.AutoSize = True
+        Me.chkb_Cob8.Location = New System.Drawing.Point(19, 227)
+        Me.chkb_Cob8.Name = "chkb_Cob8"
+        Me.chkb_Cob8.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Cob8.TabIndex = 47
+        Me.chkb_Cob8.Text = "Sin Asignar"
+        Me.chkb_Cob8.UseVisualStyleBackColor = True
+        '
+        'chkb_Cob7
+        '
+        Me.chkb_Cob7.AutoSize = True
+        Me.chkb_Cob7.Location = New System.Drawing.Point(19, 199)
+        Me.chkb_Cob7.Name = "chkb_Cob7"
+        Me.chkb_Cob7.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Cob7.TabIndex = 46
+        Me.chkb_Cob7.Text = "Sin Asignar"
+        Me.chkb_Cob7.UseVisualStyleBackColor = True
+        '
+        'chkb_Cob6
+        '
+        Me.chkb_Cob6.AutoSize = True
+        Me.chkb_Cob6.Location = New System.Drawing.Point(19, 171)
+        Me.chkb_Cob6.Name = "chkb_Cob6"
+        Me.chkb_Cob6.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Cob6.TabIndex = 45
+        Me.chkb_Cob6.Text = "Sin Asignar"
+        Me.chkb_Cob6.UseVisualStyleBackColor = True
+        '
+        'chkb_Cob5
+        '
+        Me.chkb_Cob5.AutoSize = True
+        Me.chkb_Cob5.Location = New System.Drawing.Point(19, 143)
+        Me.chkb_Cob5.Name = "chkb_Cob5"
+        Me.chkb_Cob5.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Cob5.TabIndex = 44
+        Me.chkb_Cob5.Text = "Sin Asignar"
+        Me.chkb_Cob5.UseVisualStyleBackColor = True
+        '
+        'chkb_Cob4
+        '
+        Me.chkb_Cob4.AutoSize = True
+        Me.chkb_Cob4.Location = New System.Drawing.Point(19, 115)
+        Me.chkb_Cob4.Name = "chkb_Cob4"
+        Me.chkb_Cob4.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Cob4.TabIndex = 43
+        Me.chkb_Cob4.Text = "Sin Asignar"
+        Me.chkb_Cob4.UseVisualStyleBackColor = True
+        '
+        'chkb_Cob3
+        '
+        Me.chkb_Cob3.AutoSize = True
+        Me.chkb_Cob3.Location = New System.Drawing.Point(19, 87)
+        Me.chkb_Cob3.Name = "chkb_Cob3"
+        Me.chkb_Cob3.Size = New System.Drawing.Size(143, 22)
+        Me.chkb_Cob3.TabIndex = 42
+        Me.chkb_Cob3.Text = "Cobros sin Conciliar"
+        Me.chkb_Cob3.UseVisualStyleBackColor = True
+        '
+        'chkb_Cob2
+        '
+        Me.chkb_Cob2.AutoSize = True
+        Me.chkb_Cob2.Location = New System.Drawing.Point(19, 59)
+        Me.chkb_Cob2.Name = "chkb_Cob2"
+        Me.chkb_Cob2.Size = New System.Drawing.Size(162, 22)
+        Me.chkb_Cob2.TabIndex = 41
+        Me.chkb_Cob2.Text = "Movimientos Bancarios"
+        Me.chkb_Cob2.UseVisualStyleBackColor = True
+        '
+        'chkb_Cob1
+        '
+        Me.chkb_Cob1.AutoSize = True
+        Me.chkb_Cob1.Location = New System.Drawing.Point(19, 31)
+        Me.chkb_Cob1.Name = "chkb_Cob1"
+        Me.chkb_Cob1.Size = New System.Drawing.Size(96, 22)
+        Me.chkb_Cob1.TabIndex = 40
+        Me.chkb_Cob1.Text = "Cobros Web"
+        Me.chkb_Cob1.UseVisualStyleBackColor = True
+        '
+        'tp_modules2
+        '
+        Me.tp_modules2.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.tp_modules2.Controls.Add(Me.GroupBox8)
+        Me.tp_modules2.Controls.Add(Me.GroupBox9)
+        Me.tp_modules2.Controls.Add(Me.GroupBox10)
+        Me.tp_modules2.Controls.Add(Me.GroupBox11)
+        Me.tp_modules2.Location = New System.Drawing.Point(4, 27)
+        Me.tp_modules2.Name = "tp_modules2"
+        Me.tp_modules2.Padding = New System.Windows.Forms.Padding(3)
+        Me.tp_modules2.Size = New System.Drawing.Size(831, 363)
+        Me.tp_modules2.TabIndex = 2
+        Me.tp_modules2.Text = "Modulos"
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.Controls.Add(Me.chkb_SA20)
+        Me.GroupBox8.Controls.Add(Me.chkb_SA19)
+        Me.GroupBox8.Controls.Add(Me.chkb_SA18)
+        Me.GroupBox8.Controls.Add(Me.chkb_SA17)
+        Me.GroupBox8.Controls.Add(Me.chkb_SA16)
+        Me.GroupBox8.Controls.Add(Me.chkb_SA15)
+        Me.GroupBox8.Controls.Add(Me.chkb_SA14)
+        Me.GroupBox8.Controls.Add(Me.chkb_SA13)
+        Me.GroupBox8.Controls.Add(Me.chkb_SA12)
+        Me.GroupBox8.Controls.Add(Me.chkb_SA11)
+        Me.GroupBox8.Location = New System.Drawing.Point(624, 6)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox8.TabIndex = 44
+        Me.GroupBox8.TabStop = False
+        Me.GroupBox8.Text = "Sin Asignar"
+        '
+        'chkb_SA20
+        '
+        Me.chkb_SA20.AutoSize = True
+        Me.chkb_SA20.Location = New System.Drawing.Point(54, 283)
+        Me.chkb_SA20.Name = "chkb_SA20"
+        Me.chkb_SA20.Size = New System.Drawing.Size(60, 22)
+        Me.chkb_SA20.TabIndex = 59
+        Me.chkb_SA20.Text = "Todos"
+        Me.chkb_SA20.UseVisualStyleBackColor = True
+        '
+        'chkb_SA19
+        '
+        Me.chkb_SA19.AutoSize = True
+        Me.chkb_SA19.Location = New System.Drawing.Point(54, 255)
+        Me.chkb_SA19.Name = "chkb_SA19"
+        Me.chkb_SA19.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA19.TabIndex = 58
+        Me.chkb_SA19.Text = "Sin Asignar"
+        Me.chkb_SA19.UseVisualStyleBackColor = True
+        '
+        'chkb_SA18
+        '
+        Me.chkb_SA18.AutoSize = True
+        Me.chkb_SA18.Location = New System.Drawing.Point(54, 227)
+        Me.chkb_SA18.Name = "chkb_SA18"
+        Me.chkb_SA18.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA18.TabIndex = 57
+        Me.chkb_SA18.Text = "Sin Asignar"
+        Me.chkb_SA18.UseVisualStyleBackColor = True
+        '
+        'chkb_SA17
+        '
+        Me.chkb_SA17.AutoSize = True
+        Me.chkb_SA17.Location = New System.Drawing.Point(54, 199)
+        Me.chkb_SA17.Name = "chkb_SA17"
+        Me.chkb_SA17.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA17.TabIndex = 56
+        Me.chkb_SA17.Text = "Sin Asignar"
+        Me.chkb_SA17.UseVisualStyleBackColor = True
+        '
+        'chkb_SA16
+        '
+        Me.chkb_SA16.AutoSize = True
+        Me.chkb_SA16.Location = New System.Drawing.Point(54, 171)
+        Me.chkb_SA16.Name = "chkb_SA16"
+        Me.chkb_SA16.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA16.TabIndex = 55
+        Me.chkb_SA16.Text = "Sin Asignar"
+        Me.chkb_SA16.UseVisualStyleBackColor = True
+        '
+        'chkb_SA15
+        '
+        Me.chkb_SA15.AutoSize = True
+        Me.chkb_SA15.Location = New System.Drawing.Point(54, 143)
+        Me.chkb_SA15.Name = "chkb_SA15"
+        Me.chkb_SA15.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA15.TabIndex = 54
+        Me.chkb_SA15.Text = "Sin Asignar"
+        Me.chkb_SA15.UseVisualStyleBackColor = True
+        '
+        'chkb_SA14
+        '
+        Me.chkb_SA14.AutoSize = True
+        Me.chkb_SA14.Location = New System.Drawing.Point(54, 115)
+        Me.chkb_SA14.Name = "chkb_SA14"
+        Me.chkb_SA14.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA14.TabIndex = 53
+        Me.chkb_SA14.Text = "Sin Asignar"
+        Me.chkb_SA14.UseVisualStyleBackColor = True
+        '
+        'chkb_SA13
+        '
+        Me.chkb_SA13.AutoSize = True
+        Me.chkb_SA13.Location = New System.Drawing.Point(54, 87)
+        Me.chkb_SA13.Name = "chkb_SA13"
+        Me.chkb_SA13.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA13.TabIndex = 52
+        Me.chkb_SA13.Text = "Sin Asignar"
+        Me.chkb_SA13.UseVisualStyleBackColor = True
+        '
+        'chkb_SA12
+        '
+        Me.chkb_SA12.AutoSize = True
+        Me.chkb_SA12.Location = New System.Drawing.Point(54, 59)
+        Me.chkb_SA12.Name = "chkb_SA12"
+        Me.chkb_SA12.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA12.TabIndex = 51
+        Me.chkb_SA12.Text = "Sin Asignar"
+        Me.chkb_SA12.UseVisualStyleBackColor = True
+        '
+        'chkb_SA11
+        '
+        Me.chkb_SA11.AutoSize = True
+        Me.chkb_SA11.Location = New System.Drawing.Point(54, 31)
+        Me.chkb_SA11.Name = "chkb_SA11"
+        Me.chkb_SA11.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA11.TabIndex = 50
+        Me.chkb_SA11.Text = "Sin Asignar"
+        Me.chkb_SA11.UseVisualStyleBackColor = True
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger10)
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger9)
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger8)
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger7)
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger6)
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger5)
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger4)
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger3)
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger2)
+        Me.GroupBox9.Controls.Add(Me.chkb_Ger1)
+        Me.GroupBox9.Location = New System.Drawing.Point(212, 6)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox9.TabIndex = 43
+        Me.GroupBox9.TabStop = False
+        Me.GroupBox9.Text = "Información Gerencial"
+        '
+        'chkb_Ger10
+        '
+        Me.chkb_Ger10.AutoSize = True
+        Me.chkb_Ger10.Location = New System.Drawing.Point(54, 283)
+        Me.chkb_Ger10.Name = "chkb_Ger10"
+        Me.chkb_Ger10.Size = New System.Drawing.Size(60, 22)
+        Me.chkb_Ger10.TabIndex = 59
+        Me.chkb_Ger10.Text = "Todos"
+        Me.chkb_Ger10.UseVisualStyleBackColor = True
+        '
+        'chkb_Ger9
+        '
+        Me.chkb_Ger9.AutoSize = True
+        Me.chkb_Ger9.Location = New System.Drawing.Point(54, 255)
+        Me.chkb_Ger9.Name = "chkb_Ger9"
+        Me.chkb_Ger9.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Ger9.TabIndex = 58
+        Me.chkb_Ger9.Text = "Sin Asignar"
+        Me.chkb_Ger9.UseVisualStyleBackColor = True
+        '
+        'chkb_Ger8
+        '
+        Me.chkb_Ger8.AutoSize = True
+        Me.chkb_Ger8.Location = New System.Drawing.Point(54, 227)
+        Me.chkb_Ger8.Name = "chkb_Ger8"
+        Me.chkb_Ger8.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Ger8.TabIndex = 57
+        Me.chkb_Ger8.Text = "Sin Asignar"
+        Me.chkb_Ger8.UseVisualStyleBackColor = True
+        '
+        'chkb_Ger7
+        '
+        Me.chkb_Ger7.AutoSize = True
+        Me.chkb_Ger7.Location = New System.Drawing.Point(54, 199)
+        Me.chkb_Ger7.Name = "chkb_Ger7"
+        Me.chkb_Ger7.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Ger7.TabIndex = 56
+        Me.chkb_Ger7.Text = "Sin Asignar"
+        Me.chkb_Ger7.UseVisualStyleBackColor = True
+        '
+        'chkb_Ger6
+        '
+        Me.chkb_Ger6.AutoSize = True
+        Me.chkb_Ger6.Location = New System.Drawing.Point(54, 171)
+        Me.chkb_Ger6.Name = "chkb_Ger6"
+        Me.chkb_Ger6.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Ger6.TabIndex = 55
+        Me.chkb_Ger6.Text = "Sin Asignar"
+        Me.chkb_Ger6.UseVisualStyleBackColor = True
+        '
+        'chkb_Ger5
+        '
+        Me.chkb_Ger5.AutoSize = True
+        Me.chkb_Ger5.Location = New System.Drawing.Point(54, 143)
+        Me.chkb_Ger5.Name = "chkb_Ger5"
+        Me.chkb_Ger5.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Ger5.TabIndex = 54
+        Me.chkb_Ger5.Text = "Sin Asignar"
+        Me.chkb_Ger5.UseVisualStyleBackColor = True
+        '
+        'chkb_Ger4
+        '
+        Me.chkb_Ger4.AutoSize = True
+        Me.chkb_Ger4.Location = New System.Drawing.Point(54, 115)
+        Me.chkb_Ger4.Name = "chkb_Ger4"
+        Me.chkb_Ger4.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Ger4.TabIndex = 53
+        Me.chkb_Ger4.Text = "Sin Asignar"
+        Me.chkb_Ger4.UseVisualStyleBackColor = True
+        '
+        'chkb_Ger3
+        '
+        Me.chkb_Ger3.AutoSize = True
+        Me.chkb_Ger3.Location = New System.Drawing.Point(54, 87)
+        Me.chkb_Ger3.Name = "chkb_Ger3"
+        Me.chkb_Ger3.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Ger3.TabIndex = 52
+        Me.chkb_Ger3.Text = "Sin Asignar"
+        Me.chkb_Ger3.UseVisualStyleBackColor = True
+        '
+        'chkb_Ger2
+        '
+        Me.chkb_Ger2.AutoSize = True
+        Me.chkb_Ger2.Location = New System.Drawing.Point(54, 59)
+        Me.chkb_Ger2.Name = "chkb_Ger2"
+        Me.chkb_Ger2.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Ger2.TabIndex = 51
+        Me.chkb_Ger2.Text = "Sin Asignar"
+        Me.chkb_Ger2.UseVisualStyleBackColor = True
+        '
+        'chkb_Ger1
+        '
+        Me.chkb_Ger1.AutoSize = True
+        Me.chkb_Ger1.Location = New System.Drawing.Point(54, 31)
+        Me.chkb_Ger1.Name = "chkb_Ger1"
+        Me.chkb_Ger1.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Ger1.TabIndex = 50
+        Me.chkb_Ger1.Text = "Sin Asignar"
+        Me.chkb_Ger1.UseVisualStyleBackColor = True
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm10)
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm9)
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm8)
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm7)
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm6)
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm5)
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm4)
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm3)
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm2)
+        Me.GroupBox10.Controls.Add(Me.chkb_Adm1)
+        Me.GroupBox10.Location = New System.Drawing.Point(6, 6)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox10.TabIndex = 42
+        Me.GroupBox10.TabStop = False
+        Me.GroupBox10.Text = "Administración"
+        '
+        'chkb_Adm10
+        '
+        Me.chkb_Adm10.AutoSize = True
+        Me.chkb_Adm10.Location = New System.Drawing.Point(54, 283)
+        Me.chkb_Adm10.Name = "chkb_Adm10"
+        Me.chkb_Adm10.Size = New System.Drawing.Size(60, 22)
+        Me.chkb_Adm10.TabIndex = 49
+        Me.chkb_Adm10.Text = "Todos"
+        Me.chkb_Adm10.UseVisualStyleBackColor = True
+        '
+        'chkb_Adm9
+        '
+        Me.chkb_Adm9.AutoSize = True
+        Me.chkb_Adm9.Location = New System.Drawing.Point(54, 255)
+        Me.chkb_Adm9.Name = "chkb_Adm9"
+        Me.chkb_Adm9.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Adm9.TabIndex = 48
+        Me.chkb_Adm9.Text = "Sin Asignar"
+        Me.chkb_Adm9.UseVisualStyleBackColor = True
+        '
+        'chkb_Adm8
+        '
+        Me.chkb_Adm8.AutoSize = True
+        Me.chkb_Adm8.Location = New System.Drawing.Point(54, 227)
+        Me.chkb_Adm8.Name = "chkb_Adm8"
+        Me.chkb_Adm8.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Adm8.TabIndex = 47
+        Me.chkb_Adm8.Text = "Sin Asignar"
+        Me.chkb_Adm8.UseVisualStyleBackColor = True
+        '
+        'chkb_Adm7
+        '
+        Me.chkb_Adm7.AutoSize = True
+        Me.chkb_Adm7.Location = New System.Drawing.Point(54, 199)
+        Me.chkb_Adm7.Name = "chkb_Adm7"
+        Me.chkb_Adm7.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Adm7.TabIndex = 46
+        Me.chkb_Adm7.Text = "Sin Asignar"
+        Me.chkb_Adm7.UseVisualStyleBackColor = True
+        '
+        'chkb_Adm6
+        '
+        Me.chkb_Adm6.AutoSize = True
+        Me.chkb_Adm6.Location = New System.Drawing.Point(54, 171)
+        Me.chkb_Adm6.Name = "chkb_Adm6"
+        Me.chkb_Adm6.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Adm6.TabIndex = 45
+        Me.chkb_Adm6.Text = "Sin Asignar"
+        Me.chkb_Adm6.UseVisualStyleBackColor = True
+        '
+        'chkb_Adm5
+        '
+        Me.chkb_Adm5.AutoSize = True
+        Me.chkb_Adm5.Location = New System.Drawing.Point(54, 143)
+        Me.chkb_Adm5.Name = "chkb_Adm5"
+        Me.chkb_Adm5.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Adm5.TabIndex = 44
+        Me.chkb_Adm5.Text = "Sin Asignar"
+        Me.chkb_Adm5.UseVisualStyleBackColor = True
+        '
+        'chkb_Adm4
+        '
+        Me.chkb_Adm4.AutoSize = True
+        Me.chkb_Adm4.Location = New System.Drawing.Point(54, 115)
+        Me.chkb_Adm4.Name = "chkb_Adm4"
+        Me.chkb_Adm4.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Adm4.TabIndex = 43
+        Me.chkb_Adm4.Text = "Sin Asignar"
+        Me.chkb_Adm4.UseVisualStyleBackColor = True
+        '
+        'chkb_Adm3
+        '
+        Me.chkb_Adm3.AutoSize = True
+        Me.chkb_Adm3.Location = New System.Drawing.Point(54, 87)
+        Me.chkb_Adm3.Name = "chkb_Adm3"
+        Me.chkb_Adm3.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Adm3.TabIndex = 42
+        Me.chkb_Adm3.Text = "Sin Asignar"
+        Me.chkb_Adm3.UseVisualStyleBackColor = True
+        '
+        'chkb_Adm2
+        '
+        Me.chkb_Adm2.AutoSize = True
+        Me.chkb_Adm2.Location = New System.Drawing.Point(54, 59)
+        Me.chkb_Adm2.Name = "chkb_Adm2"
+        Me.chkb_Adm2.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Adm2.TabIndex = 41
+        Me.chkb_Adm2.Text = "Sin Asignar"
+        Me.chkb_Adm2.UseVisualStyleBackColor = True
+        '
+        'chkb_Adm1
+        '
+        Me.chkb_Adm1.AutoSize = True
+        Me.chkb_Adm1.Location = New System.Drawing.Point(54, 31)
+        Me.chkb_Adm1.Name = "chkb_Adm1"
+        Me.chkb_Adm1.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Adm1.TabIndex = 40
+        Me.chkb_Adm1.Text = "Sin Asignar"
+        Me.chkb_Adm1.UseVisualStyleBackColor = True
+        '
+        'GroupBox11
+        '
+        Me.GroupBox11.Controls.Add(Me.chkb_SA10)
+        Me.GroupBox11.Controls.Add(Me.chkb_SA9)
+        Me.GroupBox11.Controls.Add(Me.chkb_SA8)
+        Me.GroupBox11.Controls.Add(Me.chkb_SA7)
+        Me.GroupBox11.Controls.Add(Me.chkb_SA6)
+        Me.GroupBox11.Controls.Add(Me.chkb_SA5)
+        Me.GroupBox11.Controls.Add(Me.chkb_SA4)
+        Me.GroupBox11.Controls.Add(Me.chkb_SA3)
+        Me.GroupBox11.Controls.Add(Me.chkb_SA2)
+        Me.GroupBox11.Controls.Add(Me.chkb_SA1)
+        Me.GroupBox11.Location = New System.Drawing.Point(418, 6)
+        Me.GroupBox11.Name = "GroupBox11"
+        Me.GroupBox11.Size = New System.Drawing.Size(200, 336)
+        Me.GroupBox11.TabIndex = 41
+        Me.GroupBox11.TabStop = False
+        Me.GroupBox11.Text = "Sin Asignar"
+        '
+        'chkb_SA10
+        '
+        Me.chkb_SA10.AutoSize = True
+        Me.chkb_SA10.Location = New System.Drawing.Point(54, 283)
+        Me.chkb_SA10.Name = "chkb_SA10"
+        Me.chkb_SA10.Size = New System.Drawing.Size(60, 22)
+        Me.chkb_SA10.TabIndex = 59
+        Me.chkb_SA10.Text = "Todos"
+        Me.chkb_SA10.UseVisualStyleBackColor = True
+        '
+        'chkb_SA9
+        '
+        Me.chkb_SA9.AutoSize = True
+        Me.chkb_SA9.Location = New System.Drawing.Point(54, 255)
+        Me.chkb_SA9.Name = "chkb_SA9"
+        Me.chkb_SA9.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA9.TabIndex = 58
+        Me.chkb_SA9.Text = "Sin Asignar"
+        Me.chkb_SA9.UseVisualStyleBackColor = True
+        '
+        'chkb_SA8
+        '
+        Me.chkb_SA8.AutoSize = True
+        Me.chkb_SA8.Location = New System.Drawing.Point(54, 227)
+        Me.chkb_SA8.Name = "chkb_SA8"
+        Me.chkb_SA8.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA8.TabIndex = 57
+        Me.chkb_SA8.Text = "Sin Asignar"
+        Me.chkb_SA8.UseVisualStyleBackColor = True
+        '
+        'chkb_SA7
+        '
+        Me.chkb_SA7.AutoSize = True
+        Me.chkb_SA7.Location = New System.Drawing.Point(54, 199)
+        Me.chkb_SA7.Name = "chkb_SA7"
+        Me.chkb_SA7.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA7.TabIndex = 56
+        Me.chkb_SA7.Text = "Sin Asignar"
+        Me.chkb_SA7.UseVisualStyleBackColor = True
+        '
+        'chkb_SA6
+        '
+        Me.chkb_SA6.AutoSize = True
+        Me.chkb_SA6.Location = New System.Drawing.Point(54, 171)
+        Me.chkb_SA6.Name = "chkb_SA6"
+        Me.chkb_SA6.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA6.TabIndex = 55
+        Me.chkb_SA6.Text = "Sin Asignar"
+        Me.chkb_SA6.UseVisualStyleBackColor = True
+        '
+        'chkb_SA5
+        '
+        Me.chkb_SA5.AutoSize = True
+        Me.chkb_SA5.Location = New System.Drawing.Point(54, 143)
+        Me.chkb_SA5.Name = "chkb_SA5"
+        Me.chkb_SA5.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA5.TabIndex = 54
+        Me.chkb_SA5.Text = "Sin Asignar"
+        Me.chkb_SA5.UseVisualStyleBackColor = True
+        '
+        'chkb_SA4
+        '
+        Me.chkb_SA4.AutoSize = True
+        Me.chkb_SA4.Location = New System.Drawing.Point(54, 115)
+        Me.chkb_SA4.Name = "chkb_SA4"
+        Me.chkb_SA4.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA4.TabIndex = 53
+        Me.chkb_SA4.Text = "Sin Asignar"
+        Me.chkb_SA4.UseVisualStyleBackColor = True
+        '
+        'chkb_SA3
+        '
+        Me.chkb_SA3.AutoSize = True
+        Me.chkb_SA3.Location = New System.Drawing.Point(54, 87)
+        Me.chkb_SA3.Name = "chkb_SA3"
+        Me.chkb_SA3.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA3.TabIndex = 52
+        Me.chkb_SA3.Text = "Sin Asignar"
+        Me.chkb_SA3.UseVisualStyleBackColor = True
+        '
+        'chkb_SA2
+        '
+        Me.chkb_SA2.AutoSize = True
+        Me.chkb_SA2.Location = New System.Drawing.Point(54, 59)
+        Me.chkb_SA2.Name = "chkb_SA2"
+        Me.chkb_SA2.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA2.TabIndex = 51
+        Me.chkb_SA2.Text = "Sin Asignar"
+        Me.chkb_SA2.UseVisualStyleBackColor = True
+        '
+        'chkb_SA1
+        '
+        Me.chkb_SA1.AutoSize = True
+        Me.chkb_SA1.Location = New System.Drawing.Point(54, 31)
+        Me.chkb_SA1.Name = "chkb_SA1"
+        Me.chkb_SA1.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_SA1.TabIndex = 50
+        Me.chkb_SA1.Text = "Sin Asignar"
+        Me.chkb_SA1.UseVisualStyleBackColor = True
+        '
+        'btn_guardar
+        '
+        Me.btn_guardar.BackColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_guardar.ForeColor = System.Drawing.Color.White
+        Me.btn_guardar.Location = New System.Drawing.Point(346, 426)
+        Me.btn_guardar.Name = "btn_guardar"
+        Me.btn_guardar.Size = New System.Drawing.Size(93, 33)
+        Me.btn_guardar.TabIndex = 3
+        Me.btn_guardar.Text = "&Guardar"
+        Me.btn_guardar.UseVisualStyleBackColor = False
+        '
+        'btn_salir
+        '
+        Me.btn_salir.BackColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_salir.ForeColor = System.Drawing.Color.White
+        Me.btn_salir.Location = New System.Drawing.Point(445, 426)
+        Me.btn_salir.Name = "btn_salir"
+        Me.btn_salir.Size = New System.Drawing.Size(93, 33)
+        Me.btn_salir.TabIndex = 4
+        Me.btn_salir.Text = "Salir"
+        Me.btn_salir.UseVisualStyleBackColor = False
+        '
         'frm_security
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(876, 453)
+        Me.ClientSize = New System.Drawing.Size(884, 471)
         Me.ControlBox = False
+        Me.Controls.Add(Me.btn_salir)
+        Me.Controls.Add(Me.btn_guardar)
         Me.Controls.Add(Me.TabControl1)
         Me.Font = New System.Drawing.Font("Trebuchet MS", 9.75!)
         Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
@@ -1549,21 +1709,23 @@ Partial Class frm_security
         Me.Text = "Seguridad"
         Me.TabControl1.ResumeLayout(False)
         Me.tp_generals.ResumeLayout(False)
-        Me.tp_modules.ResumeLayout(False)
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
+        Me.GroupBox13.ResumeLayout(False)
+        Me.GroupBox13.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.tp_modules.ResumeLayout(False)
+        Me.GroupBox7.ResumeLayout(False)
+        Me.GroupBox7.PerformLayout()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
         Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox6.PerformLayout()
-        Me.GroupBox7.ResumeLayout(False)
-        Me.GroupBox7.PerformLayout()
         Me.tp_modules2.ResumeLayout(False)
         Me.GroupBox8.ResumeLayout(False)
         Me.GroupBox8.PerformLayout()
@@ -1579,7 +1741,17 @@ Partial Class frm_security
 
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents tp_generals As TabPage
-    Friend WithEvents tp_modules As TabPage
+    Friend WithEvents GroupBox13 As GroupBox
+    Friend WithEvents CheckBox11 As CheckBox
+    Friend WithEvents CheckBox12 As CheckBox
+    Friend WithEvents CheckBox13 As CheckBox
+    Friend WithEvents CheckBox14 As CheckBox
+    Friend WithEvents CheckBox15 As CheckBox
+    Friend WithEvents CheckBox16 As CheckBox
+    Friend WithEvents CheckBox17 As CheckBox
+    Friend WithEvents CheckBox18 As CheckBox
+    Friend WithEvents CheckBox19 As CheckBox
+    Friend WithEvents CheckBox20 As CheckBox
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents chkb_Bot10 As CheckBox
     Friend WithEvents chkb_Bot9 As CheckBox
@@ -1613,6 +1785,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Rep3 As CheckBox
     Friend WithEvents chkb_Rep2 As CheckBox
     Friend WithEvents chkb_Rep1 As CheckBox
+    Friend WithEvents tp_modules As TabPage
     Friend WithEvents GroupBox7 As GroupBox
     Friend WithEvents chkb_Inv10 As CheckBox
     Friend WithEvents chkb_Inv9 As CheckBox
@@ -1702,4 +1875,6 @@ Partial Class frm_security
     Friend WithEvents chkb_SA3 As CheckBox
     Friend WithEvents chkb_SA2 As CheckBox
     Friend WithEvents chkb_SA1 As CheckBox
+    Friend WithEvents btn_guardar As Button
+    Friend WithEvents btn_salir As Button
 End Class

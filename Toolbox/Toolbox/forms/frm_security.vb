@@ -3,6 +3,8 @@
         Width = frm_Home.Width - 100
         Height = frm_Home.Height - 120
         WindowState = FormWindowState.Maximized
+
+
     End Sub
 
     Private Sub chkb_Rep10_Click(sender As Object, e As EventArgs)
@@ -29,4 +31,7 @@
         End If
     End Sub
 
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btn_salir.Click
+        Close()
+    End Sub
 End Class
