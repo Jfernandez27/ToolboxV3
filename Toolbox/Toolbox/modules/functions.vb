@@ -58,7 +58,7 @@ Module functions
                             frm_Home.Ventas9ToolStripMenuItem.Enabled = True
 
                             'Botones
-                            frm_Home.SistemaToolStripMenuItem.Enabled = True
+                            frm_Home.SyncToolStripMenuItem.Enabled = True
                             frm_Home.InventarioToolStripMenuItem.Enabled = True
                             frm_Home.VentasToolStripMenuItem.Enabled = True
                             frm_Home.EnviosToolStripMenuItem.Enabled = True
@@ -148,7 +148,7 @@ Module functions
                     Case 69
                     Case 70
                     Case 71
-                        If vCar = 1 Then frm_Home.SistemaToolStripMenuItem.Enabled = True
+                        If vCar = 1 Then frm_Home.SyncToolStripMenuItem.Enabled = True
                     Case 72
                         If vCar = 1 Then frm_Home.InventarioToolStripMenuItem.Enabled = True
                     Case 73

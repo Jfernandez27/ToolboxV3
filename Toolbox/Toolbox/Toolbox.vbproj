@@ -106,6 +106,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classes\cls_security.vb" />
+    <Compile Include="forms\frm_security.Designer.vb">
+      <DependentUpon>frm_security.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frm_security.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="forms\frm_Home.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="forms\frm_security.resx">
+      <DependentUpon>frm_security.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\frm_Home.resx">
       <DependentUpon>frm_Home.vb</DependentUpon>
     </EmbeddedResource>
