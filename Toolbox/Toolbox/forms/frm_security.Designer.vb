@@ -24,18 +24,18 @@ Partial Class frm_security
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.tp_generals = New System.Windows.Forms.TabPage()
-        Me.GroupBox13 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox18 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.gb_system = New System.Windows.Forms.GroupBox()
+        Me.chkb_Sys10 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Sys9 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Sys8 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Sys7 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Sys6 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Sys5 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Sys4 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Sys3 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Sys2 = New System.Windows.Forms.CheckBox()
+        Me.chkb_Sys1 = New System.Windows.Forms.CheckBox()
+        Me.gb_buttons = New System.Windows.Forms.GroupBox()
         Me.chkb_Bot10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Bot9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Bot8 = New System.Windows.Forms.CheckBox()
@@ -46,7 +46,7 @@ Partial Class frm_security
         Me.chkb_Bot3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Bot2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Bot1 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.gb_modules = New System.Windows.Forms.GroupBox()
         Me.chkb_Mod10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Mod9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Mod8 = New System.Windows.Forms.CheckBox()
@@ -57,7 +57,7 @@ Partial Class frm_security
         Me.chkb_Mod3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Mod2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Mod1 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.gb_reports = New System.Windows.Forms.GroupBox()
         Me.chkb_Rep10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Rep9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Rep8 = New System.Windows.Forms.CheckBox()
@@ -69,7 +69,7 @@ Partial Class frm_security
         Me.chkb_Rep2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Rep1 = New System.Windows.Forms.CheckBox()
         Me.tp_modules = New System.Windows.Forms.TabPage()
-        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.gb_inv = New System.Windows.Forms.GroupBox()
         Me.chkb_Inv10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Inv9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Inv8 = New System.Windows.Forms.CheckBox()
@@ -80,7 +80,7 @@ Partial Class frm_security
         Me.chkb_Inv3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Inv2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Inv1 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.gb_env = New System.Windows.Forms.GroupBox()
         Me.chkb_Env10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Env9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Env8 = New System.Windows.Forms.CheckBox()
@@ -91,7 +91,7 @@ Partial Class frm_security
         Me.chkb_Env3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Env2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Env1 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.gb_ven = New System.Windows.Forms.GroupBox()
         Me.chkb_Ven10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ven9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ven8 = New System.Windows.Forms.CheckBox()
@@ -102,7 +102,7 @@ Partial Class frm_security
         Me.chkb_Ven3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ven2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ven1 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.gb_cob = New System.Windows.Forms.GroupBox()
         Me.chkb_Cob10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Cob9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Cob8 = New System.Windows.Forms.CheckBox()
@@ -114,7 +114,7 @@ Partial Class frm_security
         Me.chkb_Cob2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Cob1 = New System.Windows.Forms.CheckBox()
         Me.tp_modules2 = New System.Windows.Forms.TabPage()
-        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.gb_02 = New System.Windows.Forms.GroupBox()
         Me.chkb_SA20 = New System.Windows.Forms.CheckBox()
         Me.chkb_SA19 = New System.Windows.Forms.CheckBox()
         Me.chkb_SA18 = New System.Windows.Forms.CheckBox()
@@ -125,7 +125,7 @@ Partial Class frm_security
         Me.chkb_SA13 = New System.Windows.Forms.CheckBox()
         Me.chkb_SA12 = New System.Windows.Forms.CheckBox()
         Me.chkb_SA11 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.gb_ger = New System.Windows.Forms.GroupBox()
         Me.chkb_Ger10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ger9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ger8 = New System.Windows.Forms.CheckBox()
@@ -136,7 +136,7 @@ Partial Class frm_security
         Me.chkb_Ger3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ger2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Ger1 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.gb_adm = New System.Windows.Forms.GroupBox()
         Me.chkb_Adm10 = New System.Windows.Forms.CheckBox()
         Me.chkb_Adm9 = New System.Windows.Forms.CheckBox()
         Me.chkb_Adm8 = New System.Windows.Forms.CheckBox()
@@ -147,7 +147,7 @@ Partial Class frm_security
         Me.chkb_Adm3 = New System.Windows.Forms.CheckBox()
         Me.chkb_Adm2 = New System.Windows.Forms.CheckBox()
         Me.chkb_Adm1 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.gb_01 = New System.Windows.Forms.GroupBox()
         Me.chkb_SA10 = New System.Windows.Forms.CheckBox()
         Me.chkb_SA9 = New System.Windows.Forms.CheckBox()
         Me.chkb_SA8 = New System.Windows.Forms.CheckBox()
@@ -158,24 +158,31 @@ Partial Class frm_security
         Me.chkb_SA3 = New System.Windows.Forms.CheckBox()
         Me.chkb_SA2 = New System.Windows.Forms.CheckBox()
         Me.chkb_SA1 = New System.Windows.Forms.CheckBox()
-        Me.btn_guardar = New System.Windows.Forms.Button()
+        Me.Panel_Buttons = New System.Windows.Forms.Panel()
         Me.btn_salir = New System.Windows.Forms.Button()
+        Me.btn_guardar = New System.Windows.Forms.Button()
+        Me.chkb_all = New System.Windows.Forms.CheckBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Panel_User = New System.Windows.Forms.Panel()
         Me.TabControl1.SuspendLayout()
         Me.tp_generals.SuspendLayout()
-        Me.GroupBox13.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
+        Me.gb_system.SuspendLayout()
+        Me.gb_buttons.SuspendLayout()
+        Me.gb_modules.SuspendLayout()
+        Me.gb_reports.SuspendLayout()
         Me.tp_modules.SuspendLayout()
-        Me.GroupBox7.SuspendLayout()
-        Me.GroupBox4.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
-        Me.GroupBox6.SuspendLayout()
+        Me.gb_inv.SuspendLayout()
+        Me.gb_env.SuspendLayout()
+        Me.gb_ven.SuspendLayout()
+        Me.gb_cob.SuspendLayout()
         Me.tp_modules2.SuspendLayout()
-        Me.GroupBox8.SuspendLayout()
-        Me.GroupBox9.SuspendLayout()
-        Me.GroupBox10.SuspendLayout()
-        Me.GroupBox11.SuspendLayout()
+        Me.gb_02.SuspendLayout()
+        Me.gb_ger.SuspendLayout()
+        Me.gb_adm.SuspendLayout()
+        Me.gb_01.SuspendLayout()
+        Me.Panel_Buttons.SuspendLayout()
+        Me.Panel_User.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -184,164 +191,165 @@ Partial Class frm_security
         Me.TabControl1.Controls.Add(Me.tp_modules)
         Me.TabControl1.Controls.Add(Me.tp_modules2)
         Me.TabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.TabControl1.Location = New System.Drawing.Point(23, 12)
+        Me.TabControl1.Location = New System.Drawing.Point(12, 49)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(839, 394)
+        Me.TabControl1.Size = New System.Drawing.Size(839, 382)
         Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.TabControl1.TabIndex = 2
         '
         'tp_generals
         '
         Me.tp_generals.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.tp_generals.Controls.Add(Me.GroupBox13)
-        Me.tp_generals.Controls.Add(Me.GroupBox3)
-        Me.tp_generals.Controls.Add(Me.GroupBox2)
-        Me.tp_generals.Controls.Add(Me.GroupBox1)
+        Me.tp_generals.Controls.Add(Me.gb_system)
+        Me.tp_generals.Controls.Add(Me.gb_buttons)
+        Me.tp_generals.Controls.Add(Me.gb_modules)
+        Me.tp_generals.Controls.Add(Me.gb_reports)
         Me.tp_generals.Location = New System.Drawing.Point(4, 27)
         Me.tp_generals.Name = "tp_generals"
         Me.tp_generals.Padding = New System.Windows.Forms.Padding(3)
-        Me.tp_generals.Size = New System.Drawing.Size(831, 363)
+        Me.tp_generals.Size = New System.Drawing.Size(831, 351)
         Me.tp_generals.TabIndex = 0
         Me.tp_generals.Text = "Generales"
         '
-        'GroupBox13
+        'gb_system
         '
-        Me.GroupBox13.Controls.Add(Me.CheckBox11)
-        Me.GroupBox13.Controls.Add(Me.CheckBox12)
-        Me.GroupBox13.Controls.Add(Me.CheckBox13)
-        Me.GroupBox13.Controls.Add(Me.CheckBox14)
-        Me.GroupBox13.Controls.Add(Me.CheckBox15)
-        Me.GroupBox13.Controls.Add(Me.CheckBox16)
-        Me.GroupBox13.Controls.Add(Me.CheckBox17)
-        Me.GroupBox13.Controls.Add(Me.CheckBox18)
-        Me.GroupBox13.Controls.Add(Me.CheckBox19)
-        Me.GroupBox13.Controls.Add(Me.CheckBox20)
-        Me.GroupBox13.Location = New System.Drawing.Point(625, 6)
-        Me.GroupBox13.Name = "GroupBox13"
-        Me.GroupBox13.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox13.TabIndex = 46
-        Me.GroupBox13.TabStop = False
-        Me.GroupBox13.Text = "Sistema"
+        Me.gb_system.Controls.Add(Me.chkb_Sys10)
+        Me.gb_system.Controls.Add(Me.chkb_Sys9)
+        Me.gb_system.Controls.Add(Me.chkb_Sys8)
+        Me.gb_system.Controls.Add(Me.chkb_Sys7)
+        Me.gb_system.Controls.Add(Me.chkb_Sys6)
+        Me.gb_system.Controls.Add(Me.chkb_Sys5)
+        Me.gb_system.Controls.Add(Me.chkb_Sys4)
+        Me.gb_system.Controls.Add(Me.chkb_Sys3)
+        Me.gb_system.Controls.Add(Me.chkb_Sys2)
+        Me.gb_system.Controls.Add(Me.chkb_Sys1)
+        Me.gb_system.Enabled = False
+        Me.gb_system.Location = New System.Drawing.Point(625, 6)
+        Me.gb_system.Name = "gb_system"
+        Me.gb_system.Size = New System.Drawing.Size(200, 336)
+        Me.gb_system.TabIndex = 46
+        Me.gb_system.TabStop = False
+        Me.gb_system.Text = "Sistema"
         '
-        'CheckBox11
+        'chkb_Sys10
         '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(54, 283)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(60, 22)
-        Me.CheckBox11.TabIndex = 59
-        Me.CheckBox11.Text = "Todos"
-        Me.CheckBox11.UseVisualStyleBackColor = True
+        Me.chkb_Sys10.AutoSize = True
+        Me.chkb_Sys10.Location = New System.Drawing.Point(54, 283)
+        Me.chkb_Sys10.Name = "chkb_Sys10"
+        Me.chkb_Sys10.Size = New System.Drawing.Size(60, 22)
+        Me.chkb_Sys10.TabIndex = 59
+        Me.chkb_Sys10.Text = "Todos"
+        Me.chkb_Sys10.UseVisualStyleBackColor = True
         '
-        'CheckBox12
+        'chkb_Sys9
         '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(54, 255)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(92, 22)
-        Me.CheckBox12.TabIndex = 58
-        Me.CheckBox12.Text = "Sin Asignar"
-        Me.CheckBox12.UseVisualStyleBackColor = True
+        Me.chkb_Sys9.AutoSize = True
+        Me.chkb_Sys9.Location = New System.Drawing.Point(54, 255)
+        Me.chkb_Sys9.Name = "chkb_Sys9"
+        Me.chkb_Sys9.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Sys9.TabIndex = 58
+        Me.chkb_Sys9.Text = "Sin Asignar"
+        Me.chkb_Sys9.UseVisualStyleBackColor = True
         '
-        'CheckBox13
+        'chkb_Sys8
         '
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Location = New System.Drawing.Point(54, 227)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(92, 22)
-        Me.CheckBox13.TabIndex = 57
-        Me.CheckBox13.Text = "Sin Asignar"
-        Me.CheckBox13.UseVisualStyleBackColor = True
+        Me.chkb_Sys8.AutoSize = True
+        Me.chkb_Sys8.Location = New System.Drawing.Point(54, 227)
+        Me.chkb_Sys8.Name = "chkb_Sys8"
+        Me.chkb_Sys8.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Sys8.TabIndex = 57
+        Me.chkb_Sys8.Text = "Sin Asignar"
+        Me.chkb_Sys8.UseVisualStyleBackColor = True
         '
-        'CheckBox14
+        'chkb_Sys7
         '
-        Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.Location = New System.Drawing.Point(54, 199)
-        Me.CheckBox14.Name = "CheckBox14"
-        Me.CheckBox14.Size = New System.Drawing.Size(92, 22)
-        Me.CheckBox14.TabIndex = 56
-        Me.CheckBox14.Text = "Sin Asignar"
-        Me.CheckBox14.UseVisualStyleBackColor = True
+        Me.chkb_Sys7.AutoSize = True
+        Me.chkb_Sys7.Location = New System.Drawing.Point(54, 199)
+        Me.chkb_Sys7.Name = "chkb_Sys7"
+        Me.chkb_Sys7.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Sys7.TabIndex = 56
+        Me.chkb_Sys7.Text = "Sin Asignar"
+        Me.chkb_Sys7.UseVisualStyleBackColor = True
         '
-        'CheckBox15
+        'chkb_Sys6
         '
-        Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(54, 171)
-        Me.CheckBox15.Name = "CheckBox15"
-        Me.CheckBox15.Size = New System.Drawing.Size(92, 22)
-        Me.CheckBox15.TabIndex = 55
-        Me.CheckBox15.Text = "Sin Asignar"
-        Me.CheckBox15.UseVisualStyleBackColor = True
+        Me.chkb_Sys6.AutoSize = True
+        Me.chkb_Sys6.Location = New System.Drawing.Point(54, 171)
+        Me.chkb_Sys6.Name = "chkb_Sys6"
+        Me.chkb_Sys6.Size = New System.Drawing.Size(92, 22)
+        Me.chkb_Sys6.TabIndex = 55
+        Me.chkb_Sys6.Text = "Sin Asignar"
+        Me.chkb_Sys6.UseVisualStyleBackColor = True
         '
-        'CheckBox16
+        'chkb_Sys5
         '
-        Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.Location = New System.Drawing.Point(54, 143)
-        Me.CheckBox16.Name = "CheckBox16"
-        Me.CheckBox16.Size = New System.Drawing.Size(60, 22)
-        Me.CheckBox16.TabIndex = 54
-        Me.CheckBox16.Text = "Datos"
-        Me.CheckBox16.UseVisualStyleBackColor = True
+        Me.chkb_Sys5.AutoSize = True
+        Me.chkb_Sys5.Location = New System.Drawing.Point(54, 143)
+        Me.chkb_Sys5.Name = "chkb_Sys5"
+        Me.chkb_Sys5.Size = New System.Drawing.Size(60, 22)
+        Me.chkb_Sys5.TabIndex = 54
+        Me.chkb_Sys5.Text = "Datos"
+        Me.chkb_Sys5.UseVisualStyleBackColor = True
         '
-        'CheckBox17
+        'chkb_Sys4
         '
-        Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.Location = New System.Drawing.Point(54, 115)
-        Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(77, 22)
-        Me.CheckBox17.TabIndex = 53
-        Me.CheckBox17.Text = "Usuarios"
-        Me.CheckBox17.UseVisualStyleBackColor = True
+        Me.chkb_Sys4.AutoSize = True
+        Me.chkb_Sys4.Location = New System.Drawing.Point(54, 115)
+        Me.chkb_Sys4.Name = "chkb_Sys4"
+        Me.chkb_Sys4.Size = New System.Drawing.Size(77, 22)
+        Me.chkb_Sys4.TabIndex = 53
+        Me.chkb_Sys4.Text = "Usuarios"
+        Me.chkb_Sys4.UseVisualStyleBackColor = True
         '
-        'CheckBox18
+        'chkb_Sys3
         '
-        Me.CheckBox18.AutoSize = True
-        Me.CheckBox18.Location = New System.Drawing.Point(54, 87)
-        Me.CheckBox18.Name = "CheckBox18"
-        Me.CheckBox18.Size = New System.Drawing.Size(85, 22)
-        Me.CheckBox18.TabIndex = 52
-        Me.CheckBox18.Text = "Seguridad"
-        Me.CheckBox18.UseVisualStyleBackColor = True
+        Me.chkb_Sys3.AutoSize = True
+        Me.chkb_Sys3.Location = New System.Drawing.Point(54, 87)
+        Me.chkb_Sys3.Name = "chkb_Sys3"
+        Me.chkb_Sys3.Size = New System.Drawing.Size(85, 22)
+        Me.chkb_Sys3.TabIndex = 52
+        Me.chkb_Sys3.Text = "Seguridad"
+        Me.chkb_Sys3.UseVisualStyleBackColor = True
         '
-        'CheckBox19
+        'chkb_Sys2
         '
-        Me.CheckBox19.AutoSize = True
-        Me.CheckBox19.Location = New System.Drawing.Point(54, 59)
-        Me.CheckBox19.Name = "CheckBox19"
-        Me.CheckBox19.Size = New System.Drawing.Size(93, 22)
-        Me.CheckBox19.TabIndex = 51
-        Me.CheckBox19.Text = "Parámetros"
-        Me.CheckBox19.UseVisualStyleBackColor = True
+        Me.chkb_Sys2.AutoSize = True
+        Me.chkb_Sys2.Location = New System.Drawing.Point(54, 59)
+        Me.chkb_Sys2.Name = "chkb_Sys2"
+        Me.chkb_Sys2.Size = New System.Drawing.Size(93, 22)
+        Me.chkb_Sys2.TabIndex = 51
+        Me.chkb_Sys2.Text = "Parámetros"
+        Me.chkb_Sys2.UseVisualStyleBackColor = True
         '
-        'CheckBox20
+        'chkb_Sys1
         '
-        Me.CheckBox20.AutoSize = True
-        Me.CheckBox20.Location = New System.Drawing.Point(54, 31)
-        Me.CheckBox20.Name = "CheckBox20"
-        Me.CheckBox20.Size = New System.Drawing.Size(131, 22)
-        Me.CheckBox20.TabIndex = 50
-        Me.CheckBox20.Text = "Login con Usuario"
-        Me.CheckBox20.UseVisualStyleBackColor = True
+        Me.chkb_Sys1.AutoSize = True
+        Me.chkb_Sys1.Location = New System.Drawing.Point(54, 31)
+        Me.chkb_Sys1.Name = "chkb_Sys1"
+        Me.chkb_Sys1.Size = New System.Drawing.Size(131, 22)
+        Me.chkb_Sys1.TabIndex = 50
+        Me.chkb_Sys1.Text = "Login con Usuario"
+        Me.chkb_Sys1.UseVisualStyleBackColor = True
         '
-        'GroupBox3
+        'gb_buttons
         '
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot10)
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot9)
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot8)
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot7)
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot6)
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot5)
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot4)
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot3)
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot2)
-        Me.GroupBox3.Controls.Add(Me.chkb_Bot1)
-        Me.GroupBox3.Location = New System.Drawing.Point(212, 6)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox3.TabIndex = 33
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Botones"
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot10)
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot9)
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot8)
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot7)
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot6)
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot5)
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot4)
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot3)
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot2)
+        Me.gb_buttons.Controls.Add(Me.chkb_Bot1)
+        Me.gb_buttons.Location = New System.Drawing.Point(212, 6)
+        Me.gb_buttons.Name = "gb_buttons"
+        Me.gb_buttons.Size = New System.Drawing.Size(200, 336)
+        Me.gb_buttons.TabIndex = 33
+        Me.gb_buttons.TabStop = False
+        Me.gb_buttons.Text = "Botones"
         '
         'chkb_Bot10
         '
@@ -443,24 +451,24 @@ Partial Class frm_security
         Me.chkb_Bot1.Text = "Sincronizador"
         Me.chkb_Bot1.UseVisualStyleBackColor = True
         '
-        'GroupBox2
+        'gb_modules
         '
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod10)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod9)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod8)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod7)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod6)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod5)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod4)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod3)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod2)
-        Me.GroupBox2.Controls.Add(Me.chkb_Mod1)
-        Me.GroupBox2.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox2.TabIndex = 32
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Modulos"
+        Me.gb_modules.Controls.Add(Me.chkb_Mod10)
+        Me.gb_modules.Controls.Add(Me.chkb_Mod9)
+        Me.gb_modules.Controls.Add(Me.chkb_Mod8)
+        Me.gb_modules.Controls.Add(Me.chkb_Mod7)
+        Me.gb_modules.Controls.Add(Me.chkb_Mod6)
+        Me.gb_modules.Controls.Add(Me.chkb_Mod5)
+        Me.gb_modules.Controls.Add(Me.chkb_Mod4)
+        Me.gb_modules.Controls.Add(Me.chkb_Mod3)
+        Me.gb_modules.Controls.Add(Me.chkb_Mod2)
+        Me.gb_modules.Controls.Add(Me.chkb_Mod1)
+        Me.gb_modules.Location = New System.Drawing.Point(6, 6)
+        Me.gb_modules.Name = "gb_modules"
+        Me.gb_modules.Size = New System.Drawing.Size(200, 336)
+        Me.gb_modules.TabIndex = 32
+        Me.gb_modules.TabStop = False
+        Me.gb_modules.Text = "Modulos"
         '
         'chkb_Mod10
         '
@@ -562,24 +570,24 @@ Partial Class frm_security
         Me.chkb_Mod1.Text = "Ventas"
         Me.chkb_Mod1.UseVisualStyleBackColor = True
         '
-        'GroupBox1
+        'gb_reports
         '
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep10)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep9)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep8)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep7)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep6)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep5)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep4)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep3)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep2)
-        Me.GroupBox1.Controls.Add(Me.chkb_Rep1)
-        Me.GroupBox1.Location = New System.Drawing.Point(418, 6)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox1.TabIndex = 31
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Reportes"
+        Me.gb_reports.Controls.Add(Me.chkb_Rep10)
+        Me.gb_reports.Controls.Add(Me.chkb_Rep9)
+        Me.gb_reports.Controls.Add(Me.chkb_Rep8)
+        Me.gb_reports.Controls.Add(Me.chkb_Rep7)
+        Me.gb_reports.Controls.Add(Me.chkb_Rep6)
+        Me.gb_reports.Controls.Add(Me.chkb_Rep5)
+        Me.gb_reports.Controls.Add(Me.chkb_Rep4)
+        Me.gb_reports.Controls.Add(Me.chkb_Rep3)
+        Me.gb_reports.Controls.Add(Me.chkb_Rep2)
+        Me.gb_reports.Controls.Add(Me.chkb_Rep1)
+        Me.gb_reports.Location = New System.Drawing.Point(418, 6)
+        Me.gb_reports.Name = "gb_reports"
+        Me.gb_reports.Size = New System.Drawing.Size(200, 336)
+        Me.gb_reports.TabIndex = 31
+        Me.gb_reports.TabStop = False
+        Me.gb_reports.Text = "Reportes"
         '
         'chkb_Rep10
         '
@@ -684,35 +692,36 @@ Partial Class frm_security
         'tp_modules
         '
         Me.tp_modules.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.tp_modules.Controls.Add(Me.GroupBox7)
-        Me.tp_modules.Controls.Add(Me.GroupBox4)
-        Me.tp_modules.Controls.Add(Me.GroupBox5)
-        Me.tp_modules.Controls.Add(Me.GroupBox6)
+        Me.tp_modules.Controls.Add(Me.gb_inv)
+        Me.tp_modules.Controls.Add(Me.gb_env)
+        Me.tp_modules.Controls.Add(Me.gb_ven)
+        Me.tp_modules.Controls.Add(Me.gb_cob)
         Me.tp_modules.Location = New System.Drawing.Point(4, 27)
         Me.tp_modules.Name = "tp_modules"
         Me.tp_modules.Padding = New System.Windows.Forms.Padding(3)
-        Me.tp_modules.Size = New System.Drawing.Size(831, 363)
+        Me.tp_modules.Size = New System.Drawing.Size(831, 351)
         Me.tp_modules.TabIndex = 1
         Me.tp_modules.Text = "Modulos"
         '
-        'GroupBox7
+        'gb_inv
         '
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv10)
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv9)
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv8)
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv7)
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv6)
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv5)
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv4)
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv3)
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv2)
-        Me.GroupBox7.Controls.Add(Me.chkb_Inv1)
-        Me.GroupBox7.Location = New System.Drawing.Point(624, 6)
-        Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox7.TabIndex = 40
-        Me.GroupBox7.TabStop = False
-        Me.GroupBox7.Text = "Inventario"
+        Me.gb_inv.Controls.Add(Me.chkb_Inv10)
+        Me.gb_inv.Controls.Add(Me.chkb_Inv9)
+        Me.gb_inv.Controls.Add(Me.chkb_Inv8)
+        Me.gb_inv.Controls.Add(Me.chkb_Inv7)
+        Me.gb_inv.Controls.Add(Me.chkb_Inv6)
+        Me.gb_inv.Controls.Add(Me.chkb_Inv5)
+        Me.gb_inv.Controls.Add(Me.chkb_Inv4)
+        Me.gb_inv.Controls.Add(Me.chkb_Inv3)
+        Me.gb_inv.Controls.Add(Me.chkb_Inv2)
+        Me.gb_inv.Controls.Add(Me.chkb_Inv1)
+        Me.gb_inv.Enabled = False
+        Me.gb_inv.Location = New System.Drawing.Point(624, 6)
+        Me.gb_inv.Name = "gb_inv"
+        Me.gb_inv.Size = New System.Drawing.Size(200, 336)
+        Me.gb_inv.TabIndex = 40
+        Me.gb_inv.TabStop = False
+        Me.gb_inv.Text = "Inventario"
         '
         'chkb_Inv10
         '
@@ -814,24 +823,25 @@ Partial Class frm_security
         Me.chkb_Inv1.Text = "Auditoría de Datos"
         Me.chkb_Inv1.UseVisualStyleBackColor = True
         '
-        'GroupBox4
+        'gb_env
         '
-        Me.GroupBox4.Controls.Add(Me.chkb_Env10)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env9)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env8)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env7)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env6)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env5)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env4)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env3)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env2)
-        Me.GroupBox4.Controls.Add(Me.chkb_Env1)
-        Me.GroupBox4.Location = New System.Drawing.Point(212, 6)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox4.TabIndex = 36
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Envíos"
+        Me.gb_env.Controls.Add(Me.chkb_Env10)
+        Me.gb_env.Controls.Add(Me.chkb_Env9)
+        Me.gb_env.Controls.Add(Me.chkb_Env8)
+        Me.gb_env.Controls.Add(Me.chkb_Env7)
+        Me.gb_env.Controls.Add(Me.chkb_Env6)
+        Me.gb_env.Controls.Add(Me.chkb_Env5)
+        Me.gb_env.Controls.Add(Me.chkb_Env4)
+        Me.gb_env.Controls.Add(Me.chkb_Env3)
+        Me.gb_env.Controls.Add(Me.chkb_Env2)
+        Me.gb_env.Controls.Add(Me.chkb_Env1)
+        Me.gb_env.Enabled = False
+        Me.gb_env.Location = New System.Drawing.Point(212, 6)
+        Me.gb_env.Name = "gb_env"
+        Me.gb_env.Size = New System.Drawing.Size(200, 336)
+        Me.gb_env.TabIndex = 36
+        Me.gb_env.TabStop = False
+        Me.gb_env.Text = "Envíos"
         '
         'chkb_Env10
         '
@@ -933,24 +943,25 @@ Partial Class frm_security
         Me.chkb_Env1.Text = "Sobres"
         Me.chkb_Env1.UseVisualStyleBackColor = True
         '
-        'GroupBox5
+        'gb_ven
         '
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven10)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven9)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven8)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven7)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven6)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven5)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven4)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven3)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven2)
-        Me.GroupBox5.Controls.Add(Me.chkb_Ven1)
-        Me.GroupBox5.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox5.TabIndex = 35
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Ventas"
+        Me.gb_ven.Controls.Add(Me.chkb_Ven10)
+        Me.gb_ven.Controls.Add(Me.chkb_Ven9)
+        Me.gb_ven.Controls.Add(Me.chkb_Ven8)
+        Me.gb_ven.Controls.Add(Me.chkb_Ven7)
+        Me.gb_ven.Controls.Add(Me.chkb_Ven6)
+        Me.gb_ven.Controls.Add(Me.chkb_Ven5)
+        Me.gb_ven.Controls.Add(Me.chkb_Ven4)
+        Me.gb_ven.Controls.Add(Me.chkb_Ven3)
+        Me.gb_ven.Controls.Add(Me.chkb_Ven2)
+        Me.gb_ven.Controls.Add(Me.chkb_Ven1)
+        Me.gb_ven.Enabled = False
+        Me.gb_ven.Location = New System.Drawing.Point(6, 6)
+        Me.gb_ven.Name = "gb_ven"
+        Me.gb_ven.Size = New System.Drawing.Size(200, 336)
+        Me.gb_ven.TabIndex = 35
+        Me.gb_ven.TabStop = False
+        Me.gb_ven.Text = "Ventas"
         '
         'chkb_Ven10
         '
@@ -1052,24 +1063,25 @@ Partial Class frm_security
         Me.chkb_Ven1.Text = "Pedidos Web"
         Me.chkb_Ven1.UseVisualStyleBackColor = True
         '
-        'GroupBox6
+        'gb_cob
         '
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob10)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob9)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob8)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob7)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob6)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob5)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob4)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob3)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob2)
-        Me.GroupBox6.Controls.Add(Me.chkb_Cob1)
-        Me.GroupBox6.Location = New System.Drawing.Point(418, 6)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox6.TabIndex = 34
-        Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "Cobranzas"
+        Me.gb_cob.Controls.Add(Me.chkb_Cob10)
+        Me.gb_cob.Controls.Add(Me.chkb_Cob9)
+        Me.gb_cob.Controls.Add(Me.chkb_Cob8)
+        Me.gb_cob.Controls.Add(Me.chkb_Cob7)
+        Me.gb_cob.Controls.Add(Me.chkb_Cob6)
+        Me.gb_cob.Controls.Add(Me.chkb_Cob5)
+        Me.gb_cob.Controls.Add(Me.chkb_Cob4)
+        Me.gb_cob.Controls.Add(Me.chkb_Cob3)
+        Me.gb_cob.Controls.Add(Me.chkb_Cob2)
+        Me.gb_cob.Controls.Add(Me.chkb_Cob1)
+        Me.gb_cob.Enabled = False
+        Me.gb_cob.Location = New System.Drawing.Point(418, 6)
+        Me.gb_cob.Name = "gb_cob"
+        Me.gb_cob.Size = New System.Drawing.Size(200, 336)
+        Me.gb_cob.TabIndex = 34
+        Me.gb_cob.TabStop = False
+        Me.gb_cob.Text = "Cobranzas"
         '
         'chkb_Cob10
         '
@@ -1174,35 +1186,36 @@ Partial Class frm_security
         'tp_modules2
         '
         Me.tp_modules2.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.tp_modules2.Controls.Add(Me.GroupBox8)
-        Me.tp_modules2.Controls.Add(Me.GroupBox9)
-        Me.tp_modules2.Controls.Add(Me.GroupBox10)
-        Me.tp_modules2.Controls.Add(Me.GroupBox11)
+        Me.tp_modules2.Controls.Add(Me.gb_02)
+        Me.tp_modules2.Controls.Add(Me.gb_ger)
+        Me.tp_modules2.Controls.Add(Me.gb_adm)
+        Me.tp_modules2.Controls.Add(Me.gb_01)
         Me.tp_modules2.Location = New System.Drawing.Point(4, 27)
         Me.tp_modules2.Name = "tp_modules2"
         Me.tp_modules2.Padding = New System.Windows.Forms.Padding(3)
-        Me.tp_modules2.Size = New System.Drawing.Size(831, 363)
+        Me.tp_modules2.Size = New System.Drawing.Size(831, 351)
         Me.tp_modules2.TabIndex = 2
         Me.tp_modules2.Text = "Modulos"
         '
-        'GroupBox8
+        'gb_02
         '
-        Me.GroupBox8.Controls.Add(Me.chkb_SA20)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA19)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA18)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA17)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA16)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA15)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA14)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA13)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA12)
-        Me.GroupBox8.Controls.Add(Me.chkb_SA11)
-        Me.GroupBox8.Location = New System.Drawing.Point(624, 6)
-        Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox8.TabIndex = 44
-        Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "Sin Asignar"
+        Me.gb_02.Controls.Add(Me.chkb_SA20)
+        Me.gb_02.Controls.Add(Me.chkb_SA19)
+        Me.gb_02.Controls.Add(Me.chkb_SA18)
+        Me.gb_02.Controls.Add(Me.chkb_SA17)
+        Me.gb_02.Controls.Add(Me.chkb_SA16)
+        Me.gb_02.Controls.Add(Me.chkb_SA15)
+        Me.gb_02.Controls.Add(Me.chkb_SA14)
+        Me.gb_02.Controls.Add(Me.chkb_SA13)
+        Me.gb_02.Controls.Add(Me.chkb_SA12)
+        Me.gb_02.Controls.Add(Me.chkb_SA11)
+        Me.gb_02.Enabled = False
+        Me.gb_02.Location = New System.Drawing.Point(624, 6)
+        Me.gb_02.Name = "gb_02"
+        Me.gb_02.Size = New System.Drawing.Size(200, 336)
+        Me.gb_02.TabIndex = 44
+        Me.gb_02.TabStop = False
+        Me.gb_02.Text = "Sin Asignar"
         '
         'chkb_SA20
         '
@@ -1304,24 +1317,25 @@ Partial Class frm_security
         Me.chkb_SA11.Text = "Sin Asignar"
         Me.chkb_SA11.UseVisualStyleBackColor = True
         '
-        'GroupBox9
+        'gb_ger
         '
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger10)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger9)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger8)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger7)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger6)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger5)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger4)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger3)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger2)
-        Me.GroupBox9.Controls.Add(Me.chkb_Ger1)
-        Me.GroupBox9.Location = New System.Drawing.Point(212, 6)
-        Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox9.TabIndex = 43
-        Me.GroupBox9.TabStop = False
-        Me.GroupBox9.Text = "Información Gerencial"
+        Me.gb_ger.Controls.Add(Me.chkb_Ger10)
+        Me.gb_ger.Controls.Add(Me.chkb_Ger9)
+        Me.gb_ger.Controls.Add(Me.chkb_Ger8)
+        Me.gb_ger.Controls.Add(Me.chkb_Ger7)
+        Me.gb_ger.Controls.Add(Me.chkb_Ger6)
+        Me.gb_ger.Controls.Add(Me.chkb_Ger5)
+        Me.gb_ger.Controls.Add(Me.chkb_Ger4)
+        Me.gb_ger.Controls.Add(Me.chkb_Ger3)
+        Me.gb_ger.Controls.Add(Me.chkb_Ger2)
+        Me.gb_ger.Controls.Add(Me.chkb_Ger1)
+        Me.gb_ger.Enabled = False
+        Me.gb_ger.Location = New System.Drawing.Point(212, 6)
+        Me.gb_ger.Name = "gb_ger"
+        Me.gb_ger.Size = New System.Drawing.Size(200, 336)
+        Me.gb_ger.TabIndex = 43
+        Me.gb_ger.TabStop = False
+        Me.gb_ger.Text = "Información Gerencial"
         '
         'chkb_Ger10
         '
@@ -1423,24 +1437,25 @@ Partial Class frm_security
         Me.chkb_Ger1.Text = "Sin Asignar"
         Me.chkb_Ger1.UseVisualStyleBackColor = True
         '
-        'GroupBox10
+        'gb_adm
         '
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm10)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm9)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm8)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm7)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm6)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm5)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm4)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm3)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm2)
-        Me.GroupBox10.Controls.Add(Me.chkb_Adm1)
-        Me.GroupBox10.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox10.TabIndex = 42
-        Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "Administración"
+        Me.gb_adm.Controls.Add(Me.chkb_Adm10)
+        Me.gb_adm.Controls.Add(Me.chkb_Adm9)
+        Me.gb_adm.Controls.Add(Me.chkb_Adm8)
+        Me.gb_adm.Controls.Add(Me.chkb_Adm7)
+        Me.gb_adm.Controls.Add(Me.chkb_Adm6)
+        Me.gb_adm.Controls.Add(Me.chkb_Adm5)
+        Me.gb_adm.Controls.Add(Me.chkb_Adm4)
+        Me.gb_adm.Controls.Add(Me.chkb_Adm3)
+        Me.gb_adm.Controls.Add(Me.chkb_Adm2)
+        Me.gb_adm.Controls.Add(Me.chkb_Adm1)
+        Me.gb_adm.Enabled = False
+        Me.gb_adm.Location = New System.Drawing.Point(6, 6)
+        Me.gb_adm.Name = "gb_adm"
+        Me.gb_adm.Size = New System.Drawing.Size(200, 336)
+        Me.gb_adm.TabIndex = 42
+        Me.gb_adm.TabStop = False
+        Me.gb_adm.Text = "Administración"
         '
         'chkb_Adm10
         '
@@ -1542,24 +1557,25 @@ Partial Class frm_security
         Me.chkb_Adm1.Text = "Sin Asignar"
         Me.chkb_Adm1.UseVisualStyleBackColor = True
         '
-        'GroupBox11
+        'gb_01
         '
-        Me.GroupBox11.Controls.Add(Me.chkb_SA10)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA9)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA8)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA7)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA6)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA5)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA4)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA3)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA2)
-        Me.GroupBox11.Controls.Add(Me.chkb_SA1)
-        Me.GroupBox11.Location = New System.Drawing.Point(418, 6)
-        Me.GroupBox11.Name = "GroupBox11"
-        Me.GroupBox11.Size = New System.Drawing.Size(200, 336)
-        Me.GroupBox11.TabIndex = 41
-        Me.GroupBox11.TabStop = False
-        Me.GroupBox11.Text = "Sin Asignar"
+        Me.gb_01.Controls.Add(Me.chkb_SA10)
+        Me.gb_01.Controls.Add(Me.chkb_SA9)
+        Me.gb_01.Controls.Add(Me.chkb_SA8)
+        Me.gb_01.Controls.Add(Me.chkb_SA7)
+        Me.gb_01.Controls.Add(Me.chkb_SA6)
+        Me.gb_01.Controls.Add(Me.chkb_SA5)
+        Me.gb_01.Controls.Add(Me.chkb_SA4)
+        Me.gb_01.Controls.Add(Me.chkb_SA3)
+        Me.gb_01.Controls.Add(Me.chkb_SA2)
+        Me.gb_01.Controls.Add(Me.chkb_SA1)
+        Me.gb_01.Enabled = False
+        Me.gb_01.Location = New System.Drawing.Point(418, 6)
+        Me.gb_01.Name = "gb_01"
+        Me.gb_01.Size = New System.Drawing.Size(200, 336)
+        Me.gb_01.TabIndex = 41
+        Me.gb_01.TabStop = False
+        Me.gb_01.Text = "Sin Asignar"
         '
         'chkb_SA10
         '
@@ -1661,29 +1677,75 @@ Partial Class frm_security
         Me.chkb_SA1.Text = "Sin Asignar"
         Me.chkb_SA1.UseVisualStyleBackColor = True
         '
-        'btn_guardar
+        'Panel_Buttons
         '
-        Me.btn_guardar.BackColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(209, Byte), Integer))
-        Me.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_guardar.ForeColor = System.Drawing.Color.White
-        Me.btn_guardar.Location = New System.Drawing.Point(346, 426)
-        Me.btn_guardar.Name = "btn_guardar"
-        Me.btn_guardar.Size = New System.Drawing.Size(93, 33)
-        Me.btn_guardar.TabIndex = 3
-        Me.btn_guardar.Text = "&Guardar"
-        Me.btn_guardar.UseVisualStyleBackColor = False
+        Me.Panel_Buttons.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_Buttons.Controls.Add(Me.btn_salir)
+        Me.Panel_Buttons.Controls.Add(Me.btn_guardar)
+        Me.Panel_Buttons.Location = New System.Drawing.Point(321, 437)
+        Me.Panel_Buttons.Name = "Panel_Buttons"
+        Me.Panel_Buttons.Size = New System.Drawing.Size(200, 47)
+        Me.Panel_Buttons.TabIndex = 5
         '
         'btn_salir
         '
         Me.btn_salir.BackColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(209, Byte), Integer))
         Me.btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_salir.ForeColor = System.Drawing.Color.White
-        Me.btn_salir.Location = New System.Drawing.Point(445, 426)
+        Me.btn_salir.Location = New System.Drawing.Point(103, 7)
         Me.btn_salir.Name = "btn_salir"
         Me.btn_salir.Size = New System.Drawing.Size(93, 33)
-        Me.btn_salir.TabIndex = 4
+        Me.btn_salir.TabIndex = 6
         Me.btn_salir.Text = "Salir"
         Me.btn_salir.UseVisualStyleBackColor = False
+        '
+        'btn_guardar
+        '
+        Me.btn_guardar.BackColor = System.Drawing.Color.FromArgb(CType(CType(2, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(209, Byte), Integer))
+        Me.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_guardar.ForeColor = System.Drawing.Color.White
+        Me.btn_guardar.Location = New System.Drawing.Point(4, 7)
+        Me.btn_guardar.Name = "btn_guardar"
+        Me.btn_guardar.Size = New System.Drawing.Size(93, 33)
+        Me.btn_guardar.TabIndex = 5
+        Me.btn_guardar.Text = "&Guardar"
+        Me.btn_guardar.UseVisualStyleBackColor = False
+        '
+        'chkb_all
+        '
+        Me.chkb_all.AutoSize = True
+        Me.chkb_all.Location = New System.Drawing.Point(792, 47)
+        Me.chkb_all.Name = "chkb_all"
+        Me.chkb_all.Size = New System.Drawing.Size(60, 22)
+        Me.chkb_all.TabIndex = 47
+        Me.chkb_all.Text = "Todos"
+        Me.chkb_all.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(7, 11)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(57, 18)
+        Me.Label1.TabIndex = 48
+        Me.Label1.Text = "Usuario:"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(70, 8)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(165, 26)
+        Me.ComboBox1.TabIndex = 49
+        '
+        'Panel_User
+        '
+        Me.Panel_User.Controls.Add(Me.Label1)
+        Me.Panel_User.Controls.Add(Me.ComboBox1)
+        Me.Panel_User.Location = New System.Drawing.Point(16, 4)
+        Me.Panel_User.Name = "Panel_User"
+        Me.Panel_User.Size = New System.Drawing.Size(245, 40)
+        Me.Panel_User.TabIndex = 50
         '
         'frm_security
         '
@@ -1691,68 +1753,73 @@ Partial Class frm_security
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(884, 471)
+        Me.ClientSize = New System.Drawing.Size(860, 491)
         Me.ControlBox = False
-        Me.Controls.Add(Me.btn_salir)
-        Me.Controls.Add(Me.btn_guardar)
+        Me.Controls.Add(Me.Panel_User)
+        Me.Controls.Add(Me.chkb_all)
+        Me.Controls.Add(Me.Panel_Buttons)
         Me.Controls.Add(Me.TabControl1)
         Me.Font = New System.Drawing.Font("Trebuchet MS", 9.75!)
         Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frm_security"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Seguridad"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.TabControl1.ResumeLayout(False)
         Me.tp_generals.ResumeLayout(False)
-        Me.GroupBox13.ResumeLayout(False)
-        Me.GroupBox13.PerformLayout()
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.gb_system.ResumeLayout(False)
+        Me.gb_system.PerformLayout()
+        Me.gb_buttons.ResumeLayout(False)
+        Me.gb_buttons.PerformLayout()
+        Me.gb_modules.ResumeLayout(False)
+        Me.gb_modules.PerformLayout()
+        Me.gb_reports.ResumeLayout(False)
+        Me.gb_reports.PerformLayout()
         Me.tp_modules.ResumeLayout(False)
-        Me.GroupBox7.ResumeLayout(False)
-        Me.GroupBox7.PerformLayout()
-        Me.GroupBox4.ResumeLayout(False)
-        Me.GroupBox4.PerformLayout()
-        Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
-        Me.GroupBox6.ResumeLayout(False)
-        Me.GroupBox6.PerformLayout()
+        Me.gb_inv.ResumeLayout(False)
+        Me.gb_inv.PerformLayout()
+        Me.gb_env.ResumeLayout(False)
+        Me.gb_env.PerformLayout()
+        Me.gb_ven.ResumeLayout(False)
+        Me.gb_ven.PerformLayout()
+        Me.gb_cob.ResumeLayout(False)
+        Me.gb_cob.PerformLayout()
         Me.tp_modules2.ResumeLayout(False)
-        Me.GroupBox8.ResumeLayout(False)
-        Me.GroupBox8.PerformLayout()
-        Me.GroupBox9.ResumeLayout(False)
-        Me.GroupBox9.PerformLayout()
-        Me.GroupBox10.ResumeLayout(False)
-        Me.GroupBox10.PerformLayout()
-        Me.GroupBox11.ResumeLayout(False)
-        Me.GroupBox11.PerformLayout()
+        Me.gb_02.ResumeLayout(False)
+        Me.gb_02.PerformLayout()
+        Me.gb_ger.ResumeLayout(False)
+        Me.gb_ger.PerformLayout()
+        Me.gb_adm.ResumeLayout(False)
+        Me.gb_adm.PerformLayout()
+        Me.gb_01.ResumeLayout(False)
+        Me.gb_01.PerformLayout()
+        Me.Panel_Buttons.ResumeLayout(False)
+        Me.Panel_User.ResumeLayout(False)
+        Me.Panel_User.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents tp_generals As TabPage
-    Friend WithEvents GroupBox13 As GroupBox
-    Friend WithEvents CheckBox11 As CheckBox
-    Friend WithEvents CheckBox12 As CheckBox
-    Friend WithEvents CheckBox13 As CheckBox
-    Friend WithEvents CheckBox14 As CheckBox
-    Friend WithEvents CheckBox15 As CheckBox
-    Friend WithEvents CheckBox16 As CheckBox
-    Friend WithEvents CheckBox17 As CheckBox
-    Friend WithEvents CheckBox18 As CheckBox
-    Friend WithEvents CheckBox19 As CheckBox
-    Friend WithEvents CheckBox20 As CheckBox
-    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents gb_system As GroupBox
+    Friend WithEvents chkb_Sys10 As CheckBox
+    Friend WithEvents chkb_Sys9 As CheckBox
+    Friend WithEvents chkb_Sys8 As CheckBox
+    Friend WithEvents chkb_Sys7 As CheckBox
+    Friend WithEvents chkb_Sys6 As CheckBox
+    Friend WithEvents chkb_Sys5 As CheckBox
+    Friend WithEvents chkb_Sys4 As CheckBox
+    Friend WithEvents chkb_Sys3 As CheckBox
+    Friend WithEvents chkb_Sys2 As CheckBox
+    Friend WithEvents chkb_Sys1 As CheckBox
+    Friend WithEvents gb_buttons As GroupBox
     Friend WithEvents chkb_Bot10 As CheckBox
     Friend WithEvents chkb_Bot9 As CheckBox
     Friend WithEvents chkb_Bot8 As CheckBox
@@ -1763,7 +1830,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Bot3 As CheckBox
     Friend WithEvents chkb_Bot2 As CheckBox
     Friend WithEvents chkb_Bot1 As CheckBox
-    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents gb_modules As GroupBox
     Friend WithEvents chkb_Mod10 As CheckBox
     Friend WithEvents chkb_Mod9 As CheckBox
     Friend WithEvents chkb_Mod8 As CheckBox
@@ -1774,7 +1841,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Mod3 As CheckBox
     Friend WithEvents chkb_Mod2 As CheckBox
     Friend WithEvents chkb_Mod1 As CheckBox
-    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents gb_reports As GroupBox
     Friend WithEvents chkb_Rep10 As CheckBox
     Friend WithEvents chkb_Rep9 As CheckBox
     Friend WithEvents chkb_Rep8 As CheckBox
@@ -1786,7 +1853,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Rep2 As CheckBox
     Friend WithEvents chkb_Rep1 As CheckBox
     Friend WithEvents tp_modules As TabPage
-    Friend WithEvents GroupBox7 As GroupBox
+    Friend WithEvents gb_inv As GroupBox
     Friend WithEvents chkb_Inv10 As CheckBox
     Friend WithEvents chkb_Inv9 As CheckBox
     Friend WithEvents chkb_Inv8 As CheckBox
@@ -1797,7 +1864,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Inv3 As CheckBox
     Friend WithEvents chkb_Inv2 As CheckBox
     Friend WithEvents chkb_Inv1 As CheckBox
-    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents gb_env As GroupBox
     Friend WithEvents chkb_Env10 As CheckBox
     Friend WithEvents chkb_Env9 As CheckBox
     Friend WithEvents chkb_Env8 As CheckBox
@@ -1808,7 +1875,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Env3 As CheckBox
     Friend WithEvents chkb_Env2 As CheckBox
     Friend WithEvents chkb_Env1 As CheckBox
-    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents gb_ven As GroupBox
     Friend WithEvents chkb_Ven10 As CheckBox
     Friend WithEvents chkb_Ven9 As CheckBox
     Friend WithEvents chkb_Ven8 As CheckBox
@@ -1819,7 +1886,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Ven3 As CheckBox
     Friend WithEvents chkb_Ven2 As CheckBox
     Friend WithEvents chkb_Ven1 As CheckBox
-    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents gb_cob As GroupBox
     Friend WithEvents chkb_Cob10 As CheckBox
     Friend WithEvents chkb_Cob9 As CheckBox
     Friend WithEvents chkb_Cob8 As CheckBox
@@ -1831,7 +1898,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Cob2 As CheckBox
     Friend WithEvents chkb_Cob1 As CheckBox
     Friend WithEvents tp_modules2 As TabPage
-    Friend WithEvents GroupBox8 As GroupBox
+    Friend WithEvents gb_02 As GroupBox
     Friend WithEvents chkb_SA20 As CheckBox
     Friend WithEvents chkb_SA19 As CheckBox
     Friend WithEvents chkb_SA18 As CheckBox
@@ -1842,7 +1909,7 @@ Partial Class frm_security
     Friend WithEvents chkb_SA13 As CheckBox
     Friend WithEvents chkb_SA12 As CheckBox
     Friend WithEvents chkb_SA11 As CheckBox
-    Friend WithEvents GroupBox9 As GroupBox
+    Friend WithEvents gb_ger As GroupBox
     Friend WithEvents chkb_Ger10 As CheckBox
     Friend WithEvents chkb_Ger9 As CheckBox
     Friend WithEvents chkb_Ger8 As CheckBox
@@ -1853,7 +1920,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Ger3 As CheckBox
     Friend WithEvents chkb_Ger2 As CheckBox
     Friend WithEvents chkb_Ger1 As CheckBox
-    Friend WithEvents GroupBox10 As GroupBox
+    Friend WithEvents gb_adm As GroupBox
     Friend WithEvents chkb_Adm10 As CheckBox
     Friend WithEvents chkb_Adm9 As CheckBox
     Friend WithEvents chkb_Adm8 As CheckBox
@@ -1864,7 +1931,7 @@ Partial Class frm_security
     Friend WithEvents chkb_Adm3 As CheckBox
     Friend WithEvents chkb_Adm2 As CheckBox
     Friend WithEvents chkb_Adm1 As CheckBox
-    Friend WithEvents GroupBox11 As GroupBox
+    Friend WithEvents gb_01 As GroupBox
     Friend WithEvents chkb_SA10 As CheckBox
     Friend WithEvents chkb_SA9 As CheckBox
     Friend WithEvents chkb_SA8 As CheckBox
@@ -1875,6 +1942,11 @@ Partial Class frm_security
     Friend WithEvents chkb_SA3 As CheckBox
     Friend WithEvents chkb_SA2 As CheckBox
     Friend WithEvents chkb_SA1 As CheckBox
-    Friend WithEvents btn_guardar As Button
+    Friend WithEvents Panel_Buttons As Panel
     Friend WithEvents btn_salir As Button
+    Friend WithEvents btn_guardar As Button
+    Friend WithEvents chkb_all As CheckBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Panel_User As Panel
 End Class
